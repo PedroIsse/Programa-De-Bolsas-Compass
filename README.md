@@ -17,9 +17,6 @@ ___
 
 <<<<<<< HEAD
 Olá, sou ...
-=======
-Olá, sou Pedro Isse de Souza, estou cursando Análise e Desenvolvimento de Sistemas na Fatec Sorocaba. 
->>>>>>> a7f5bed (Teste)
 
 ## Sprints 
 
