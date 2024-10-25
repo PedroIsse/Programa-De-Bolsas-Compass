@@ -15,7 +15,6 @@ ___
 
 ## Apresentação
 
-<<<<<<< HEAD
 Olá, sou ...
 
 ## Sprints 
