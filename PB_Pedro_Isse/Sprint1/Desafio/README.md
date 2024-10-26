@@ -23,7 +23,8 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
         - Data da última venda realizada
         - As 10 primeiras linhas do arquivo backup-dados-<data_de_execução>, para gerar uma espécie de log do arquivo
 
-     Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
+     - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
+
         - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241022.txt)
         - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt)
             - Esse relatório está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
