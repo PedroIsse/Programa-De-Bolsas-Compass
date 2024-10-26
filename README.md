@@ -12,7 +12,7 @@ Posso contribuir com a Compass por meio de meus conhecimentos em Linguagem de Pr
 
 ![Foto Pedro Isse](/Assets/PedroIsse.jpg)
 
-[![LinkedIn](/Assets/linkedin.png))](https://www.linkedin.com/in/pedroisse)
+[![LinkedIn](/Assets/linkedin.png)](https://www.linkedin.com/in/pedroisse)
 
 
 ___
