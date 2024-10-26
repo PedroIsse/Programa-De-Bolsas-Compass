@@ -26,10 +26,11 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
      - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
 
         - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241022.txt)
-        - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt)
-            - Esse relatório está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
+        - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt) 
         - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241024.txt)
         - [Relatório 2024/10/25](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241025.txt)
+
+        - O [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt) está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
 
     - Por fim, para garantir que a quantidade arquivos gerados não ocupe tanto espaço do disco os arquivos backup-dados-<data_de_execução> são compactados. Os arquivos de backups compactados na pasta [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup):
         - [Backup de dados 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/backup-dados-20241022.zip)
