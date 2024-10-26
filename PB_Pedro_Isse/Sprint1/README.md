@@ -2,15 +2,15 @@
 
 ## **Git e GitHub:**
 
-### - **Controle de Versão:** 
+### **Controle de Versão:** 
 - Uma técnica que ajuda a gerenciar o código-fonte de uma aplicação, registrando todas as modificações de código, também podendo reverter essas modificações. Ou seja, criar versões de um software em diferentes estágios.
 
-### - **Git:**
+### **Git:**
 - Sistema de controle de versão mais utilizado no mundo, é baseado em repositórios que contêm todas as versões do código. É muito otimizado, protegidos com criptografia e possui código aberto.
 
-### - **Comandos essênciais:** 
+### **Comandos essênciais:** 
 
-- **Inicialização e configuração:**
+**Inicialização e configuração:**
 	- git init
 	- git remote
 	- git clone
@@ -43,11 +43,11 @@
 	- git gc
 	- git fsch
 
-### - **Padronização de commits:**
+### **Padronização de commits:**
 - Commits sem sentido atrapalham o projeto, por isso, precisa-se padronizar os commits, para que o projeto cresça de forma saudável. Melhora o review do pull request, dos logs em git log e manutenção do código. 
 - Boas mensagens de commit separam o assunto do corpo do texto, com no máximo 50 caracteres no Assunto e 72 caracteres no Corpo.
 
-### - **GitHub:**
+### **GitHub:**
 - Code
 - Issues
 - Pull Request
@@ -58,11 +58,99 @@
 - Settings
 - MarkDown
 
-**Linux:** Pude entender como funciona isso e aquilo.
+## **Linux para Desenvolvedores:** Pude entender como funciona isso e aquilo.
+
+### **Linux:**
+- Aprendi o que são distribuições do linux, e as que normalmente utilizamos em ambientes de trablho. 
+- Aprendi sobre o Kernel do Linux, que ele é o core do sistema que se comunica com o hardware.
+
+### **Terminal x Shell:**
+- O terminal é uma janela que recebe comandos e retorna a execução do shell.
+- O shell executa os comando do terminal e devolve a saída para ele, é executado dentro do diretório "bin".
+
+### **Estrutura de diretórios do Linux:**
+![EstruturaDiretórios](/Assets/EstruturaDiretorios.jpg)
+
+### **Comandos essências:**
+- cd
+    - Caminhos relativos e absolutos
+- ls
+    - Paramêtros (e.g. -l, -a, -lh...)
+- cat 
+- touch
+- man
+- cp 
+- mv 
+- pwd
+- mkdir
+- rm e rmdir
+    - Paramêtros (e.g. -i, -dr, -p...)
+- find
+    - Paramêtros (e.g. -name, -iname, -empty...)
+- locate
+- sudo
+- witch
+- tail, head e grep 
+
+### **Gerenciamento de Pacotes:**
+- Atualizar repositórios: sudo apt-get update
+- Atualizar pacotres/aplicativos: sudo apt-get upgrade
+- Instalando pacotes/aplicativos: sudo apt-get install <pacote>
+- Deletando pacotes/aplicativos: sudo apt-get purge <pacote>
+- Atualizar Linux: sudo apt-get dist-upgrade
+- Limpando pacotes desnecessários: sudo apt-get autoremove
+- Buscando aplicaitvo: apt-cache search <pacote>
+
+### **Editores de texto:**
+- Nano
+    - Alguns de seus atalhos (e.g. Crtl + O, Crtl + X, Crtl + C...) e seu funcionamento
+- Vim 
+    - Alguns de seus atalhos (e.g. Crtl + R, u, dd...), seus modos (Normal, inserção, comando e visual) e seu funcionamento
+
+### **Gerenciamento de Permissões:**    
+- "-' significa arquivo "d" diretório
+- "r" - permissão de leitura
+- "w" - permissão de escrita
+- "x" - permissão de execução
+- Formato: 1 (Arquivo ou Diretório) 222 (Permissões de dono) 333 (Permissões de grupo) 444 (Permissões de Usuário)
+- Comando: chmod <num.permissão.dono><num.permissão.grupo><num.permissão.usuário>
+- Alterando proprietário:
+    - sudo chow <novodono> <arquivo>
+    - sudo chow <novodono>:<novogrupo> <arquivo>
+- Alterando o grupo do arquivo:
+    - sudo chgrp <novogrupo> <arquivo>
+
+### **Gerenciamento de Usuários e grupos:**
+- Grupos contém vários usuários, assim facilita o gerenciamento de permissões.
+- Adicionando Usuários: sudo adduser <user>
+- Deletando Usuários: sudo userdel --remove <user>
+- Mudando nome do usuário
+    - Display: sudo usermod -c <novo_nome> <user>
+    - Diretório base: sudo usermod -l <novo_nome> -d /home/<novo_nome> -m <user>
+- Bloqueando e Desbloqueando Usuários:
+    - Bloq: sudo usermod -L <user>
+    - Unbloq: sudo usermod -U <user>
+
+### **Gerenciamento básico de redes:**
+
+1. Envio de requisição de domínio (Domain Name System)
+2. Verificação de domínio (DNS = IP)
+3. Requisição da resposta para o servidor que pertence a este domínio
+4. Retorno da resposta a quem solicitou
+
+- Entendimento individual de:
+    - DNS
+    - Portas
+    - TCP
+    - UDP
+
+___
 
 # Exercícios
 
 Nesta Sprint não foram fornecidos [Exercícios](/PB_Pedro_Isse/Sprint1/Exercicios) para resolução!
+
+___
 
 # Evidências
 
@@ -71,12 +159,16 @@ Ao executar o código do exercício ... observei que ... conforme podemos ver na
 
 ![Evidencia 1](evidencias/sample.webp)
 
+___
 
 # Certificados
 
 
-Certificado do Curso ABC
+### **Certificado do curso: Linux para Desenvolvedores (c/ terminal , Shell, Apache e +):**
 
-![Curso ABC](certificados/sample.png)
+![Certificado Linux](/PB_Pedro_Isse/Sprint1/Certificados/CursoLinux.jpg)
 
+### **Certificado do curso: Git e GitHUb do básico ao avançado (c/ gist e GitHub Pages)**
+
+![Certificado Git e GitHub](/PB_Pedro_Isse/Sprint1/Certificados/CursoGitGitHub.jpg)
 
