@@ -155,5 +155,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 - **Utilização do $**: Concatena o conteúdo da variável que estiver acompanhando;
 
-- **cat**: Serve para mostrar o conteúdo de um arquivo para 
+- **cat**: Serve para mostrar o conteúdo de um arquivo no terminal, unir arquivos e redirecionar para novos arquivos com o uso de **>**;
+
+- **"*"**: Wildcard, significa que pode representar "qualquer coisa" em nomes de arquivos e diretórios.
 
