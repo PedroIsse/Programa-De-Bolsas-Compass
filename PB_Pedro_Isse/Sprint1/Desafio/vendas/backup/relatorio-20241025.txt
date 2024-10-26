@@ -1,0 +1,15 @@
+Data do sistema: 2024/10/25 15:27
+Primeira data: 15/07/2023
+Última data: 02/08/2023
+Quantidade total de produtos diferentes vendidos: 42
+Primeiras 10 linhas do backup: 
+1, caderno, 25, 8.00, 01/08/2023
+2, guitarra, 4, 1200.00, 15/07/2023
+3, estojo, 10, 15.00, 05/08/2023
+4, tablet, 3, 1500.00, 22/07/2023
+5, caneta hidrográfica, 30, 3.00, 10/08/2023
+6, piano, 2, 2500.00, 30/07/2023
+7, mouse, 20, 45.00, 20/08/2023
+8, fones de ouvido, 15, 100.00, 28/07/2023
+9, capa para celular, 12, 30.00, 12/08/2023
+10, livro de receitas, 6, 35.00, 05/07/2023
