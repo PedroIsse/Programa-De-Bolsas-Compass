@@ -1,34 +1,22 @@
-
-# Instruções
-
-Neste arquivo você fará a sua apresentação, assim como a organização geral das suas entregas ao longo das Sprints. Esperamos que haja, minimamente:
- 
-- Uma seção de apresentação, com foto, informações como cidade de residência, instituição de ensino, curso e semestre atual, experiências na área de tecnologia (se houver), hobbies e outras informações que você julgar importante para os monitores.
-
-- De forma opcional, adicione uma foto ao seu perfil do **GitHub**, pois utilizamos tal informação para facilitar a sua identificação ao longo do processo. Lembre-se que a informação é pública, tal qual você pode testar no exemplo do repositório da [
-The Apache Software Foundation](https://github.com/apache.png?size=250).
-
-
-Veja um modelo de estrutura básica a seguir:
-
-___
-
 ## Apresentação
 
-Olá, meu nome é Pedro Isse de Souza, sou estudante do 2º Semestre de Análise e Desenvolvimento da Fatec Sorocaba, cidade onde moro.
-Gosto muito de tecnologia e aprender sobre ela, gosto de me desafiar e aprender novas coisas. Tenho como paixão vídeo games, tento aprender sobre game development no meu tempo livre, mas ainda nada muito concreto, mas é uma meta a ser realizada, com certeza. Também tenho interesse em Eletrônica, já tendo realizado alguns projetos em Arduino.
+Olá, meu nome é Pedro Isse de Souza. Sou estudante do 2º semestre de Análise e Desenvolvimento de Sistemas na Fatec Sorocaba, cidade onde moro. Gosto muito de aprender sobre tecnologia e, por isso, um dos meus objetivos, após terminar a faculdade, é me tornar Engenheiro da Computação. Dessa forma, poderei me especializar em duas áreas que me interessam profundamente: hardware e software.
+
+Meu interesse por hardware e sistemas embarcados começou quando tive meu primeiro contato com o Arduino, em um projeto que usava um sensor de umidade para regar plantas automaticamente. A partir daí, também desenvolvi um apreço por linguagens de mais "baixo" nível, como C, que são amplamente utilizadas nesse contexto.
+
+Já meu interesse por software surgiu de uma paixão pessoal: os videogames. Sou um grande apreciador de jogos e, sempre que tenho tempo, gosto de jogar. Cada vez mais, venho me interessando pelo desenvolvimento de jogos, pois acredito que é uma das formas mais completas de representação artística. Um dos meus objetivos é usar todo o conhecimento adquirido na minha jornada com a tecnologia para criar um jogo que possa se tornar importante para outras pessoas, assim como muitos são para mim.
+
+O programa de bolsas da Compass está sendo minha primeira experiência em uma empresa de tecnologia, e o conteúdo transmitido agrega muito aos meus objetivos futuros. Tenho, inclusive, grande interesse no Studio de Games da Compass, onde espero poder me aproximar ainda mais de um dos meus sonhos.
+
+Posso contribuir com a Compass por meio de meus conhecimentos em Linguagem de Programação e Algoritmos (C, C# e Python), Excel avançado, Documentação, Inglês avançado (embora ainda não tenha utilizado em contextos de negócios), Git, GitHub e Linux, além de um conhecimento básico de Shell e hardware / sistemas embarcados. Possuo também grande facilidade de aprendizado, comunicação e adaptação a situações adversas. Estou aprendendo na Faculdade os seguintes conteúdos: Sistemas Operacionais, Contabilidade, Estátistica aplicada, Cálculo, Laboratório de Hardware (Arquitetura de Computadores II), Linguagem de programação I (C) e II (C#) e Engenharia de Software I. Estou com um percentual de rendimento do curso de 9.
+
+![Foto Pedro Isse](/Assets/PedroIsse.jpg)
+[Meu LinkedIn](www.linkedin.com/in/pedroisse)
+
+___
 
 ## Sprints 
 
-1. [Sprint 1](Sprint%201/README.md)
-2. [Sprint 2](Sprint%202/README.md)
-3. [Sprint 3](Sprint%203/README.md)
-4. ...
+1. [Sprint 1](Sprint1/README.md)
 
 ___
-
-
-# Dicas
-
-- [Mark Down - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Github - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
