@@ -17,6 +17,6 @@ ___
 
 ## Sprints 
 
-1. [Sprint 1](Sprint1/README.md)
+1. [Sprint 1](PB_Pedro_Isse/Sprint1/README.md)
 
 ___
