@@ -24,7 +24,6 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
         - As 10 primeiras linhas do arquivo backup-dados-<data_de_execução>, para gerar uma espécie de log do arquivo
 
      - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
-
         - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241022.txt)
         - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt) 
         - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241024.txt)
