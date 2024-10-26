@@ -11,7 +11,7 @@ O programa de bolsas da Compass está sendo minha primeira experiência em uma e
 Posso contribuir com a Compass por meio de meus conhecimentos em Linguagem de Programação e Algoritmos (C, C# e Python), Excel avançado, Documentação, Inglês avançado (embora ainda não tenha utilizado em contextos de negócios), Git, GitHub e Linux, além de um conhecimento básico de Shell e hardware / sistemas embarcados. Possuo também grande facilidade de aprendizado, comunicação e adaptação a situações adversas. Estou aprendendo na Faculdade os seguintes conteúdos: Sistemas Operacionais, Contabilidade, Estátistica aplicada, Cálculo, Laboratório de Hardware (Arquitetura de Computadores II), Linguagem de programação I (C) e II (C#) e Engenharia de Software I. Estou com um percentual de rendimento do curso de 9.
 
 ![Foto Pedro Isse](/Assets/PedroIsse.jpg)
-[Meu LinkedIn](www.linkedin.com/in/pedroisse)
+[Meu LinkedIn](https://www.linkedin.com/in/pedroisse)
 
 ___
 
