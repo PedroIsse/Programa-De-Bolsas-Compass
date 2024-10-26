@@ -44,7 +44,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 #### Scrip 1 - processamento_de_vendas.sh
 
-'''shell
+```shell
     #!/bin/bash
 
     # Cria uma variável para receber o caminho do diretório a ser criado, vendas
@@ -102,7 +102,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
     # Excluindo dados_de_vendas.csv e backup-dados-<yyyymmdd>.csv do diretório vendas
     rm "$pathVendas/dados_de_vendas.csv"
     rm "$pathBackup/backup-dados-$data.csv"
-'''
+```
 
 ##### Explicando principais comandos
 
@@ -136,7 +136,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 #### Scrip 2 - consolidador_de_processos.sh
 
-'''shell
+```shell
     #!/bin/bash
 
     # Crio um caminho para o diretório de backup e já nomeio o futuro arquivo do relatório final
@@ -147,7 +147,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
     # tenham relatorio no nome, para isso uso o wildcard. Por fim é criado o 
     # relatorio_final.txt que recebera a concatenção dos outros relatórios
     cat "$pathRelatorios"/relatorio* > "$pathRelatorios/$relatorioFinal"
-'''
+```
 
 ##### Explicando principais comandos
 
