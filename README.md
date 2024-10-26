@@ -15,7 +15,8 @@ ___
 
 ## Apresentação
 
-Olá, sou ...
+Olá, meu nome é Pedro Isse de Souza, sou estudante do 2º Semestre de Análise e Desenvolvimento da Fatec Sorocaba, cidade onde moro.
+Gosto muito de tecnologia e aprender sobre ela, gosto de me desafiar e aprender novas coisas. Tenho como paixão vídeo games, tento aprender sobre game development no meu tempo livre, mas ainda nada muito concreto, mas é uma meta a ser realizada, com certeza. Também tenho interesse em Eletrônica, já tendo realizado alguns projetos em Arduino.
 
 ## Sprints 
 
