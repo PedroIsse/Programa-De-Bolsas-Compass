@@ -16,7 +16,7 @@ ___
 
 ___
 
-[![LinkedIn](/Assets/linkedin.png)](https://www.linkedin.com/in/pedroisse) ![C](/Assets/C.png) ![C#](/Assets/C#.png) ![Python](/Assets/Python.png) ![Git](/Assets/Git.png) ![GitHub](/Assets/GitHub.png) ![Arduino](/Assets/Arduino.png) ![Linux](/Assets/Linux.png) ![LinuxUbunto](/Assets/LinuxUbunto.png) ![Unity](/Assets/Unity.png) ![SãoPaulo](/Assets/SãoPaulo.png)
+**[![LinkedIn](/Assets/linkedin.png)](https://www.linkedin.com/in/pedroisse) ![C](/Assets/C.png) ![Csharp](/Assets/C#.png) ![Python](/Assets/Python.png) ![Git](/Assets/Git.png) ![GitHub](/Assets/GitHub.png) ![Arduino](/Assets/Arduino.png) ![Linux](/Assets/Linux.png) ![LinuxUbunto](/Assets/LinuxUbunto.png) ![Unity](/Assets/Unity.png) ![SãoPaulo](/Assets/SãoPaulo.png)**
 
 
 ___
