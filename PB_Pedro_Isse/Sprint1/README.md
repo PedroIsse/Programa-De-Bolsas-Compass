@@ -175,6 +175,8 @@ ___
 
 3. Criação do [consolidador_de_processos.sh](/PB_Pedro_Isse/Sprint1/Evidencias/consolidador_de_processamento.sh) e geração do [relatorio_final.txt](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio_final.txt)
 
+**Elaboração do [Desafio](/PB_Pedro_Isse/Sprint1/Desafio/README.md)**
+
 ___
 
 # Certificados
