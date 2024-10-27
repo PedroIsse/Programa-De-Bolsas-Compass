@@ -6,16 +6,16 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 ![DiagramaEstruturaDesafio](/Assets/Diagrama.png)
 
-1. Crio um diretório chamado de [ecommerce](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce)
-    - Nele adiciono o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv)
+1. Crio um diretório chamado de [ecommerce](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce)
+    - Nele adiciono o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce/dados_de_vendas.csv)
 
-2. Agora começo o desenvolvimento do primeiro script [processamento_de_vendas.sh](/PB_Pedro_Isse/Sprint1/Desafio/processamento_de_vendas.sh)
+2. Agora começo o desenvolvimento do primeiro script [processamento_de_vendas.sh](/PB_Pedro_Isse/Sprint1/Evidencias/processamento_de_vendas.sh)
 
     - Nele será desenvolvido relatórios que serão gerados de segunda a quinta-feira, entretanto, no meu foi executado de terça a sexta-feira, pois meu script foi finalizado segundo, porém, depois das 15:27, que é o horário que deve ser executado.
 
-    - Quando for executado ele criará uma estrutura de diretórios, que é o diretório [vendas](/PB_Pedro_Isse/Sprint1/Desafio/vendas) e seu subdiretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/)
+    - Quando for executado ele criará uma estrutura de diretórios, que é o diretório [vendas](/PB_Pedro_Isse/Sprint1/Evidencias/vendas) e seu subdiretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/)
 
-    - Será copiado para o diretório de [vendas](/PB_Pedro_Isse/Sprint1/Desafio/vendas) o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv) do diretório [ecommerce](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce). Logo em seguida a cópia será transferida para o diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup) com o nome dados-<data_de_execução> e depois será renomeado para backup-dados-<data_de_execução>
+    - Será copiado para o diretório de [vendas](/PB_Pedro_Isse/Sprint1/Evidencias/vendas) o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce/dados_de_vendas.csv) do diretório [ecommerce](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce). Logo em seguida a cópia será transferida para o diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup) com o nome dados-<data_de_execução> e depois será renomeado para backup-dados-<data_de_execução>
 
     - A partir desse ponto, o relatório do dia será gerado, contendo as seguintes informações: 
         - Data de execução do programa no formato YYYY/MM/DD H:M
@@ -23,23 +23,23 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
         - Data da última venda realizada
         - As 10 primeiras linhas do arquivo backup-dados-<data_de_execução>, para gerar uma espécie de log do arquivo
 
-     - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
-        - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241022.txt)
-        - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt) 
-        - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241024.txt)
-        - [Relatório 2024/10/25](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241025.txt)
+     - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
+        - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241022.txt)
+        - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) 
+        - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241024.txt)
+        - [Relatório 2024/10/25](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241025.txt)
 
-        - O [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio-20241023.txt) está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
+        - O [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
 
-    - Por fim, para garantir que a quantidade arquivos gerados não ocupe tanto espaço do disco os arquivos backup-dados-<data_de_execução> são compactados. Os arquivos de backups compactados na pasta [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup):
-        - [Backup de dados 2024/10/22](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/backup-dados-20241022.zip)
-        - [Backup de dados 2024/10/23](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/backup-dados-20241023.zip)
-        - [Backup de dados 2024/10/24](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/backup-dados-20241024.zip)
-        - [Backup de dados 2024/10/25](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/backup-dados-20241025.zip)
+    - Por fim, para garantir que a quantidade arquivos gerados não ocupe tanto espaço do disco os arquivos backup-dados-<data_de_execução> são compactados. Os arquivos de backups compactados na pasta [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup):
+        - [Backup de dados 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241022.zip)
+        - [Backup de dados 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241023.zip)
+        - [Backup de dados 2024/10/24](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241024.zip)
+        - [Backup de dados 2024/10/25](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241025.zip)
     
-    - Depois são removidos os arquivos de backup-dados-<data_de_execução>.csv do diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup) e o arquivo dados_de_vendas.csv do diretório [vendas](/PB_Pedro_Isse/Sprint1/Desafio/vendas)
+    - Depois são removidos os arquivos de backup-dados-<data_de_execução>.csv do diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup) e o arquivo dados_de_vendas.csv do diretório [vendas](/PB_Pedro_Isse/Sprint1/Evidencias/vendas)
 
-3. Agora para o desenvolvimento do scrip [consolidador_de_processos.sh](/PB_Pedro_Isse/Sprint1/Desafio/consolidador_de_processamento.sh). O objetivo dele é juntar os relatóris criados no diretório [backup](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup) e juntar em arquivo chamado [relatorio_final.txt](/PB_Pedro_Isse/Sprint1/Desafio/vendas/backup/relatorio_final.txt)
+3. Agora para o desenvolvimento do scrip [consolidador_de_processos.sh](/PB_Pedro_Isse/Sprint1/Evidencias/consolidador_de_processamento.sh). O objetivo dele é juntar os relatóris criados no diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup) e juntar em arquivo chamado [relatorio_final.txt](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio_final.txt)
 
 ## Funcionamento dos scripts
 
