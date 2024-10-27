@@ -159,14 +159,14 @@ ___
 
 2. Criação do [processamento_de_vendas.sh](/PB_Pedro_Isse/Sprint1/Evidencias/processamento_de_vendas.sh) e programando data e horário de execução com o [crontab](/PB_Pedro_Isse/Sprint1/Evidencias/crontab.png). 
 
-Geração de relatórios:
+	Geração de relatórios:
 
 - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241022.txt)
 - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) 
 - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241024.txt)
 - [Relatório 2024/10/25](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241025.txt)
 
-Geração de backups compactados:
+	Geração de backups compactados:
 
 - [Backup de dados 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241022.zip)
 - [Backup de dados 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241023.zip)
