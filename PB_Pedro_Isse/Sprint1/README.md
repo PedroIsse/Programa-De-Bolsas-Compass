@@ -10,7 +10,7 @@
 
 ### **Comandos essênciais:** 
 
-**Inicialização e configuração:**
+- **Inicialização e configuração:**
 	- git init
 	- git remote
 	- git clone
@@ -116,7 +116,7 @@
 - Comando: chmod <num.permissão.dono><num.permissão.grupo><num.permissão.usuário>
 - Alterando proprietário:
     - sudo chow <novodono> <arquivo>
-    - sudo chow <novodono>:<novogrupo> <arquivo>
+    - sudo chow <novodono> : <novogrupo> <arquivo>
 - Alterando o grupo do arquivo:
     - sudo chgrp <novogrupo> <arquivo>
 

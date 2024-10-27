@@ -11,7 +11,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 2. Agora começo o desenvolvimento do primeiro script [processamento_de_vendas.sh](/PB_Pedro_Isse/Sprint1/Evidencias/processamento_de_vendas.sh)
 
-    - Nele será desenvolvido relatórios que serão gerados de segunda a quinta-feira, entretanto, no meu foi executado de terça a sexta-feira, pois meu script foi finalizado segundo, porém, depois das 15:27, que é o horário que deve ser executado. Para isso é necessário configurar o [crontab](/PB_Pedro_Isse/Sprint1/Evidencias/crontab.png).
+    - Nele será desenvolvido relatórios que serão gerados de segunda a quinta-feira, entretanto, no meu foi executado de terça a sexta-feira, pois meu script foi finalizado segundo, porém, depois das 15:27, que é o horário que deve ser executado. Para isso é necessário configurar o [crontab](/PB_Pedro_Isse/Sprint1/Evidencias/crontab.png)
 
     - Quando for executado ele criará uma estrutura de diretórios, que é o diretório [vendas](/PB_Pedro_Isse/Sprint1/Evidencias/vendas) e seu subdiretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/)
 
@@ -23,13 +23,13 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
         - Data da última venda realizada
         - As 10 primeiras linhas do arquivo backup-dados-<data_de_execução>, para gerar uma espécie de log do arquivo
 
-     - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint
+     - Assim, gerando um arquivo chamado de relatorio-<data_de_execução>, que será armazenado no diretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup), aqui estão os arquivos gerados durante a resolução da Sprint:
         - [Relatório 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241022.txt)
         - [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) 
         - [Relatório 2024/10/24](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241024.txt)
         - [Relatório 2024/10/25](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241025.txt)
 
-        - O [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda.
+        - O [Relatório 2024/10/23](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/relatorio-20241023.txt) está com a última data vazia, pois na sua execução o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Evidencias/ecommerce/dados_de_vendas.csv) tinha uma linha vazia abaixo dos itens vendidos, assim puxando o contéudo ou falta de coutéudo dela, ao invés da data da última venda
 
     - Por fim, para garantir que a quantidade arquivos gerados não ocupe tanto espaço do disco os arquivos backup-dados-<data_de_execução> são compactados. Os arquivos de backups compactados na pasta [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup):
         - [Backup de dados 2024/10/22](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/backup-dados-20241022.zip)
