@@ -11,7 +11,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 2. Agora começo o desenvolvimento do primeiro script [processamento_de_vendas.sh](/PB_Pedro_Isse/Sprint1/Evidencias/processamento_de_vendas.sh)
 
-    - Nele será desenvolvido relatórios que serão gerados de segunda a quinta-feira, entretanto, no meu foi executado de terça a sexta-feira, pois meu script foi finalizado segundo, porém, depois das 15:27, que é o horário que deve ser executado.
+    - Nele será desenvolvido relatórios que serão gerados de segunda a quinta-feira, entretanto, no meu foi executado de terça a sexta-feira, pois meu script foi finalizado segundo, porém, depois das 15:27, que é o horário que deve ser executado. Para isso é necessário configurar o [crontab](/PB_Pedro_Isse/Sprint1/Evidencias/crontab.png).
 
     - Quando for executado ele criará uma estrutura de diretórios, que é o diretório [vendas](/PB_Pedro_Isse/Sprint1/Evidencias/vendas) e seu subdiretório [backup](/PB_Pedro_Isse/Sprint1/Evidencias/vendas/backup/)
 
