@@ -4,7 +4,7 @@
 
 Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para que assim, ao decorrer dos Cursos fornecidos na trilha eu já soubesse o que eu teria que me atentar mais para que eu não tivesse grandes dificuldades durante a resolução do desafio.
 
-![DiagramaEstruturaDesafio](/Assets/ProcessamentoDeVendas.drawio.png)
+![DiagramaEstruturaDesafio](/Assets/Diagrama)
 
 1. Crio um diretório chamado de [ecommerce](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce)
     - Nele adiciono o arquivo [dados_de_vendas.csv](/PB_Pedro_Isse/Sprint1/Desafio/ecommerce/dados_de_vendas.csv)
