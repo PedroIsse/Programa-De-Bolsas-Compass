@@ -43,7 +43,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 ## Funcionamento dos scripts
 
-#### Scrip 1 - processamento_de_vendas.sh
+#### **Scrip 1 - processamento_de_vendas.sh**
 
 ```shell
     #!/bin/bash
@@ -105,7 +105,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
     rm "$pathBackup/backup-dados-$data.csv"
 ```
 
-##### Explicando principais comandos
+##### **Explicando principais comandos:**
 
 - **Criação de variáveis**: As variáveis que começam com 'path' recebem caminhos absolutos para diretórios ou arquivos. As outras recebem alguma informação, a variável data recebe a data do Sistema Operacional, por exemplo;
 
@@ -135,7 +135,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
 
 - **rm**: Remove arquivo.
 
-#### Scrip 2 - consolidador_de_processos.sh
+#### **Scrip 2 - consolidador_de_processos.sh**
 
 ```shell
     #!/bin/bash
@@ -150,7 +150,7 @@ Quando recebi o desafio, a primeira coisa que fiz foi tentar entender ele, para 
     cat "$pathRelatorios"/relatorio* > "$pathRelatorios/$relatorioFinal"
 ```
 
-##### Explicando principais comandos
+##### **Explicando principais comandos:**
 
 - **Criação de variáveis**: As variáveis que começam com 'path' recebem caminhos absolutos para diretórios ou arquivos. As outras recebem alguma informação, a variável data recebe a data do Sistema Operacional, por exemplo;
 

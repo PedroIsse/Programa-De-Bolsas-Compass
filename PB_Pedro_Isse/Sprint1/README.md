@@ -58,7 +58,7 @@
 - Settings
 - MarkDown
 
-## **Linux para Desenvolvedores:** Pude entender como funciona isso e aquilo.
+## **Linux para Desenvolvedores:**
 
 ### **Linux:**
 - Aprendi o que são distribuições do linux, e as que normalmente utilizamos em ambientes de trablho. 
