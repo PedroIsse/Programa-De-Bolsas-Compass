@@ -180,13 +180,3 @@ ___
 ___
 
 # Certificados
-
-
-### **Certificado do curso: Linux para Desenvolvedores (c/ terminal , Shell, Apache e +):**
-
-![Certificado Linux](/PB_Pedro_Isse/Sprint1/Certificados/CursoLinux.jpg)
-
-### **Certificado do curso: Git e GitHUb do básico ao avançado (c/ gist e GitHub Pages)**
-
-![Certificado Git e GitHub](/PB_Pedro_Isse/Sprint1/Certificados/CursoGitGitHub.jpg)
-
