@@ -128,8 +128,6 @@ ___
 
 **Terceira Forma Normal (3FN):**  O objetivo é eliminar dependências transitivas. Entretanto, após as Etapas 1FN e 2FN já não se faz necessário isso. Nesta parte eu somento monto as relações entre Chaves Primárias e Estrangeiras.
 
-### **Modelagem Relacional dos dados**
-
 Após a realização da Normalização da tabela, eu tenho algumas tebelas *ao vento*, mas não é isso que quero, por isso utilizei Chaves primárias nos IDs de cada tabela e relacionar por meio das Chaves Estrangeiras, abaixo o relacionamento entre elas:
 
 **tbLocacao:**
