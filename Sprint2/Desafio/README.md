@@ -16,7 +16,7 @@ Para melhor organização do Desafio, utilizei dois Bancos de Dados .sqlite para
 
 A primeira etapa do desafio foi normalizar a tabela "tb_locacao" para que eu pudesse criar meu modelo relacional. Para isso, eu utilizei as 3 formas de normalização. 
 
-**Priemeira Forma Normal (1FN):** Como sabemso o objetivo é retirar os atributos ou grupos repetitivos. Em outras palavras, representações de informações que se repetem para a mesma unidade, retratando ocorrências de um mesmo fato dentro de uma única entidade. Gerando novas tabelas.
+**Primeira Forma Normal (1FN):** Como sabemos objetivo é retirar os atributos ou grupos repetitivos. Em outras palavras, representações de informações que se repetem para a mesma unidade, retratando ocorrências de um mesmo fato dentro de uma única entidade. Gerando novas tabelas.
 
 - **Primeiro verificação:** Verifico se há valores que não estão no formato atômico (indivisíveis). Neste caso, a tabela que nos foi fornecida já está com todos os seus valores atômicos.
 
