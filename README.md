@@ -1,4 +1,4 @@
-## Apresentação
+# **Apresentação**
 
 Olá, meu nome é Pedro Isse de Souza. Sou estudante do 2º semestre de Análise e Desenvolvimento de Sistemas na Fatec Sorocaba, cidade onde moro. Gosto muito de aprender sobre tecnologia e, por isso, um dos meus objetivos, após terminar a faculdade, é me tornar Engenheiro da Computação. Dessa forma, poderei me especializar em duas áreas que me interessam profundamente: hardware e software.
 
@@ -21,8 +21,8 @@ ___
 
 ___
 
-## Sprints 
+## **Sprints** 
 
-1. [Sprint 1](PB_Pedro_Isse/Sprint1/README.md)
-
+1. [**Sprint 1**](/Sprint1/README.md)
+2. [**Sprint 2**](/Sprint2/README.md)
 ___

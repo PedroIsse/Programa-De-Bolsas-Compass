@@ -1,8 +1,7 @@
-select
-    titulo, -- Seleciona coluna titulo
-    valor -- Seleciona coluna valor
-
-from livro -- Tabela principal: livro
-where (select max(valor) from livro) -- Condição: Uso uma subquery para achar o valor MÁXIMO da coluna "valor" da tabela "livro"
-order by valor desc -- Ordeno pela coluna "valor", por ordem decrescente
-limit 10-- Mostra somente os 10 primeiros valores que atendem a condição
+SELECT
+    titulo, -- Selecionado as colunas titulo e valor
+    valor
+FROM livro -- Da tabela livro
+WHERE (SELECT MAX(valor) FROM livro) -- Condição: Escolher os maiores valores da tabela livro (Livros mais caros)
+ORDER BY valor DESC -- Ordena de maior para menor valor
+LIMIT 10 -- Mostra as 10 primeiras linhas

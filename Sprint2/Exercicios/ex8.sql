@@ -1,14 +1,14 @@
-select
-    cdvdd, -- Seleciona as colunas cdvdd e nmvdd
+SELECT
+    cdvdd, -- Seleciona as colunas cdvdd e nmvdd (SUBQUERY: vendedor_mais_vendas)
     nmvdd
-from (
-    select
+FROM (
+    SELECT 
         *,
-        sum(tbvendas.cdvdd)/tbvendas.cdvdd as max_vendas -- Soma toda as aparições do código do vendedor e depois divide por ele mesmo, para saber quantas vezes aparece
-    from tbvendas -- Da tabela vendas
-    left join tbvendedor -- Junção a esquerda (tbvenda -> tbvendedor)
-        on tbvendas.cdvdd = tbvendedor.cdvdd  -- Condição de junção: as colunas tbvendas.cdvdd e tbvendedor.cdvdd devem corresponder
-    group by tbvendas.cdvdd -- Agrupados por código do vendedor
-    order by max_vendas desc -- Ordenado pelo Maior Número de vendas
-    limit 1 -- Apenas a primeira linha
-) as vendedor_mais_vendas -- Tabela principal vendedor_mais_vendas (SUBQUERY FROM)
+        SUM(tbvendas.cdvdd)/tbvendas.cdvdd AS max_vendas -- Soma toda as aparições do vendedor, pelo seu código, e depois divide por ele mesmo, para que assim, seja possível saber quantas vezes ele aparece
+    FROM tbvendas -- Tabela principal: tbvendas
+    LEFT JOIN tbvendedor -- Junção a esquerda (tbvenda -> tbvendedor)
+        ON tbvendas.cdvdd = tbvendedor.cdvdd -- Condição de junção: as colunas tbvendas.cdvdd e tbvendedor.cdvdd devem corresponder
+    GROUP BY tbvendas.cdvdd -- Agrupado pelo código do vendedor (Sem repetições)
+    ORDER BY max_vendas DESC -- Ordenado pela coluna max_vendas (Maior número de vendas)
+    LIMIT 1 -- Apenas a primeira linha
+) AS vendedor_mais_vendas -- Subquery criada para resolução

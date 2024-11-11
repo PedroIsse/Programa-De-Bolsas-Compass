@@ -2,10 +2,10 @@
 
 ## **Entedimento sobre o Desafio**
 
-### **OLPT e OLAP**
-
 #### **Normalização**
+
 #### **Modelagem Relacional**
+
 #### **Modelagem Dimensional**
 
 ## **Desafio**

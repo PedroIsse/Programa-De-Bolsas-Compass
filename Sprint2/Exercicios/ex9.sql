@@ -1,13 +1,13 @@
-select
-    cdpro, -- Seleciona as colunas cdpro e nmpro
+SELECT
+    cdpro, -- Seleciona as colunas cdpro e nmpro (SUBQUERY: vendas_data)
     nmpro
-from (
-    select 
+FROM (
+    SELECT
         *,
-        sum(tbvendas.cdpro)/tbvendas.cdpro as max_produto -- Soma toda as aparições do código do produto e depois divide por ele mesmo, para saber quantas vezes aparece
-    from tbvendas -- Da tabela tbvendas
-    where dtven between '2014-02-03' and '2018-02-02' -- Condição: Somente produtos entre as datas
-    group by tbvendas.cdpro -- Agrupado por tbvendas.cdpro (Código de produto)
-    order by max_produto desc -- Ordenado pelo produto (maior número)
-    limit 1 -- Apenas a primeira linha (O produto que mais foi vendido)
-) as vendas_data -- Tabela principal vendas_data (Subquery FROM)
+        SUM(tbvendas.cdpro)/tbvendas.cdpro AS max_produto -- Soma toda as aparições do código do produto e depois divide por ele mesmo, para saber quantas vezes aparece
+    FROM tbvendas -- Tabela: tbvendas
+    WHERE dtven BETWEEN '2014-02-03' AND '2018-02-02' -- Condição: Somente produtos entre as datas '2014-02-03' e '2018-02-02'
+    GROUP BY tbvendas.cdpro -- Agrupado por tbvendas.cdpro (Código de produto) (Sem repetições)
+    ORDER BY max_produto desc -- Ordenado pelo produto (Maior para Menor)
+    LIMIT 1 -- Apenas a primeira linha
+) AS vendas_data -- Subquery criada para resolução
