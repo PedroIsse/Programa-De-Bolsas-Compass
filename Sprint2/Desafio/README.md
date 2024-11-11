@@ -4,7 +4,7 @@
 
 Para a realização do Desafio recebemos um Banco de Dados .sqlite, que consistia de uma grande tabela, chamada de tb_locacao, com diversos itens sobre uma locadora de veículos:
 
-‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎![TabelaLocaçãoVeículosSemNormalização](../Evidencias/DiagramaSemNormalizacao.png)
+![TabelaLocaçãoVeículosSemNormalização](../Evidencias/DiagramaSemNormalizacao.png)
 
 A primeira coisa que foi notada é que para a realização do Desafio da Sprint 2, seria necessário que a tabela fosse **Normalizada** para que fosse possível a criação da **Modelo Relacional** requisitado, tal qual, o Banco de Dados .sqlite normalizado. Entretando também é necessário que seja feito a granulação dessa tabela para que possa ser feito o **Modelo Dimensional** da tabela, por meio da criação de uma tabela fato e outras tabelas dimensionais. 
 
