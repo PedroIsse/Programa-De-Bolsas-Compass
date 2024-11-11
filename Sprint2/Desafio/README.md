@@ -50,7 +50,7 @@ CREATE TABLE tbCarros (
     marcaCarro    VARCHAR,
     modeloCarro   VARCHAR,
     anoCarro      INTEGER,
-    idcombustivel INTEGER
+    idcombustivel INTEGER REFERENCES tbCombustível (idcombustivel) 
 );
 ```
 ___
@@ -70,7 +70,6 @@ CREATE TABLE tbClientes (
     estadoCliente VARCHAR,
     paisCliente   VARCHAR
 );
-
 ```
 ___
 
@@ -99,8 +98,7 @@ ___
 
 ```SQL
 CREATE TABLE tbCombustível (
-    idcombustivel   INTEGER PRIMARY KEY
-                            REFERENCES tbCarros (idcombustivel),
+    idcombustivel   INTEGER PRIMARY KEY,
     tipoCombustivel VARCHAR
 );
 ```
