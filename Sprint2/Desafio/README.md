@@ -154,7 +154,7 @@ Após a realização da Normalização da tabela, eu tenho algumas tebelas *ao v
 
 ___
 
-### **Diagrama de Dados: Dimensional**
+### **Diagrama de Dados: Relacional**
 
 O diagrama gerado no DBeaver apresenta a estrutura final do modelo relacional, destacando as chaves primárias e estrangeiras, os relacionamentos entre as tabelas e os tipos de dados de cada coluna (e.g., INTEGER, VARCHAR, DATE). As chaves primárias identificam unicamente cada registro dentro de suas respectivas tabelas, enquanto as chaves estrangeiras conectam as tabelas, garantindo a integridade referencial entre elas. Esse modelo permite uma visualização clara dos relacionamentos e das regras de integridade aplicadas ao banco de dados.
 
