@@ -707,7 +707,7 @@ from abc import ABC, abstractmethod
 class Forma(ABC):
     @abstractmethod
     def calcular_area(self):
-        pass  # Método abstrato
+        pass  # Método abstrato 
 
 class Retangulo(Forma):
     def __init__(self, largura, altura):
@@ -729,6 +729,10 @@ formas = [Retangulo(10, 5), Circulo(7)]
 for forma in formas:
     print(f"Área: {forma.calcular_area()}")
 ```
+
+### **Gerenciamento de Pacotes:**
+
+
 
 # Exercícios
 
