@@ -1,6 +1,9 @@
+# Cria um função que printa, respectivamente, os paramêtros não nomeados e depois os nomeados
 def funcao(*args, **kwargs):
+    # Printa os não nomeados
     for arg in args:
         print(arg)
+    # Printa os nomeados (Dicionário)
     for chave, valor in kwargs.items():
         print(valor)
 

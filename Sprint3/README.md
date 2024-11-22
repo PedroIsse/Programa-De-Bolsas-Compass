@@ -732,10 +732,268 @@ for forma in formas:
 
 ### **Gerenciamento de Pacotes:**
 
-
-
 # Exercícios
 
+[**Exercício 1:**](../Sprint3/Exercicios/Exercícios%20Python%20I/ex1.py) *Desenvolva um código em Python que crie variáveis para armazenar o nome e a idade de uma pessoa, juntamente com seus valores correspondentes. Como saída, imprima o ano em que a pessoa completará 100 anos de idade.*
+
+[**Exercício 2:**](../Sprint3/Exercicios/Exercícios%20Python%20I/ex2.py) *Escreva um código Python que use a função range() para adicionar três números em uma lista(Esta lista deve chamar-se 'números')  e verificar se esses três números são pares ou ímpares. Para cada número, imprima como saída Par: ou Ímpar: e o número correspondente (um linha para cada número lido).*
+
+[**Exercício 3:**](../Sprint3/Exercicios/Exercícios%20Python%20I/ex3.py) *Escreva um código Python para imprimir os números pares de 0 até 20 (incluso).*
+
+[**Exercício 4:**](../Sprint3/Exercicios/Exercícios%20Python%20I/ex4.py) *Escreva um código Python para imprimir todos os números primos entre 1 até 100. Lembre-se que você deverá desenvolver o cálculo que identifica se um número é primo ou não.*
+
+[**Exercício 5:**](../Sprint3/Exercicios/Exercícios%20Python%20I/ex5.py) *Escreva um código Python que declara 3 variáveis:*
+
+- *dia, inicializada com valor 22*
+
+- *mes, inicializada com valor 10 e*
+
+- *ano, inicializada com valor 2022*
+
+*Como saída, você deverá imprimir a data correspondente, no formato a seguir dia/mes/ano.*
+
+[**Exercício 6:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex6.py) *Escreva um programa para avaliar o que ambas as listas têm em comum (sem repetições), imprimindo a lista de valores da interseção na saída padrão.*
+
+[**Exercício 7:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex7.py) *Faça um programa que gere uma nova lista contendo apenas números ímpares.*
+
+[**Exercício 8:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex8.py) *Verifique se cada uma das palavras da lista ['maça', 'arara', 'audio', 'radio', 'radar', 'moto'] é ou não um palíndromo.*
+
+*Obs: Palíndromo é uma palavra que permanece igual se lida de traz pra frente.*
+
+[**Exercício 9:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex9.py) *Faça um programa que imprima o dados na seguinte estrutura: "índice - primeiroNome sobreNome está com idade anos".*
+
+[**Exercício 10:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex10.py) *Escreva uma função que recebe uma lista e retorna uma nova lista sem elementos duplicados. Utilize a lista a seguir para testar sua função: ['abc', 'abc', 'abc', '123', 'abc', '123', '123']*
+
+[**Exercício 11:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex11.py) *Leia o arquivo person.json, faça o parsing e imprima seu conteúdo.*
+
+*Dica: leia a documentação do pacote json*
+
+[**Exercício 12:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex12.py) *Implemente a função my_map(list, f) que recebe uma lista como primeiro argumento e uma função como segundo argumento. Esta função aplica a função recebida para cada elemento da lista recebida e retorna o resultado em uma nova lista.*
+
+*Teste sua função com a lista de entrada [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] e com uma função que potência de 2 para cada elemento.*
+
+[**Exercício 13:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex13.py) *Escreva um programa que lê o conteúdo do arquivo texto arquivo_texto.txt e imprime o seu conteúdo.*
+
+*Dica: leia a documentação da função open(...)*
+
+[**Exercício 14:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex14.py) *Escreva uma função que recebe um número variável de parâmetros não nomeados e um número variado de parâmetros nomeados e imprime o valor de cada parâmetro recebido.*
+
+*Teste sua função com os seguintes parâmetros:*
+
+*(1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)*
+
+[**Exercício 15:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex15.py) *Implemente a classe Lampada. A classe Lâmpada recebe um booleano no seu construtor, Truese a lâmpada estiver ligada, False caso esteja desligada. A classe Lampada possuí os seguintes métodos:*
+
+- *liga(): muda o estado da lâmpada para ligada*
+
+- *desliga(): muda o estado da lâmpada para desligada*
+
+- *esta_ligada(): retorna verdadeiro se a lâmpada estiver ligada,falso caso contrário*
+
+[**Exercício 16:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex16.py) *Escreva uma função que recebe uma string de números separados por vírgula e retorne a soma de todos eles. Depois imprima a soma dos valores.*
+
+*A string deve ter valor  "1,3,4,6,10,76"*
+
+[**Exercício 17:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex17.py) *Escreva uma função que recebe como parâmetro uma lista e retorna 3 listas: a lista recebida dividida em 3 partes iguais. Teste sua implementação com a lista abaixo*
+
+*lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]*
+
+[**Exercício 18:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex18.py) *Dado o dicionário a seguir: speed = {'jan':47, 'feb':52, 'march':47, 'April':44, 'May':52, 'June':53, 'july':54, 'Aug':44, 'Sept':54}*
+
+*Crie uma lista com todos os valores (não as chaves!) e coloque numa lista de forma que não haja valores duplicados.*
+
+[**Exercício 19:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex19.py) *Calcule o valor mínimo, valor máximo, valor médio e a mediana da lista gerada na célula abaixo:*
+
+*Obs.: Lembrem-se, para calcular a mediana a lista deve estar ordenada!*
+
+```Python
+import random 
+# amostra aleatoriamente 50 números do intervalo 0...500
+random_list = random.sample(range(500),50)
+```
+
+[**Exercício 20:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex20.py) *Imprima a lista abaixo de trás para frente.*
+
+*a = [1, 0, 2, 3, 5, 8, 13, 21, 34, 55, 89]*
+
+[**Exercício 21:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex21.py) *Implemente duas classes, Pato e Pardal , que herdam de uma superclasse chamada Passaro as habilidades de voar e emitir som.*
+
+*Contudo, tanto Pato quanto Pardal devem emitir sons diferentes (de maneira escrita) no console*
+
+[**Exercício 22:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex22.py) *Crie uma classe chamada Pessoa, com um atributo privado chamado nome (declarado internamente na classe como __nome) e um atributo público de nome id.*
+
+*Adicione dois métodos à classe, sendo um para definir o valor de __nome e outro para retornar o valor do respectivo atributo.*
+
+*Lembre-se que o acesso ao atributo privado deve ocorrer somente através dos métodos definidos, nunca diretamente.  Você pode alcançar este comportamento através do recurso de properties do Python.*
+
+[**Exercício 23:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex23.py) *Crie uma classe  Calculo  que contenha um método que aceita dois parâmetros, X e Y, e retorne a soma dos dois. Nessa mesma classe, implemente um método de subtração, que aceita dois parâmetros, X e Y, e retorne a subtração dos dois (resultados negativos são permitidos).*
+
+[**Exercício 24:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex24.py) *Crie uma classe Ordenadora que contenha um atributo listaBaguncada e que contenha os métodos ordenacaoCrescente e ordenacaoDecrescente.*
+
+*Instancie um objeto chamado crescente dessa classe Ordenadora que tenha como listaBaguncada a lista [3,4,2,1,5] e instancie um outro objeto, decrescente dessa mesma classe com uma outra listaBaguncada sendo [9,7,6,8].*
+
+*Para o primeiro objeto citado, use o método ordenacaoCrescente e para o segundo objeto, use o método ordenacaoDecrescente.*
+
+[**Exercício 25:**](../Sprint3/Exercicios/Exercícios%20Python%20II/ex25.py) *Crie uma classe Avião que possua os atributos modelo, velocidade_maxima, cor e capacidade.*
+
+*Defina o atributo cor de sua classe , de maneira que todas as instâncias de sua classe avião sejam da cor “azul”.*
+
+*Após isso, a partir de entradas abaixo, instancie e armazene em uma lista 3 objetos da classe Avião.*
+
+*Ao final, itere pela lista imprimindo cada um dos objetos no seguinte formato:*
+
+*“O avião de modelo “x” possui uma velocidade máxima de “y”, capacidade para “z” passageiros e é da cor “w”.*
+
+*Sendo x, y, z e w cada um dos atributos da classe “Avião”.*
+
+*Valores de entrada:*
+
+- *modelo BOIENG456: velocidade máxima 1500 km/h: capacidade para 400 passageiros: Cor Azul*
+
+- *modelo Embraer Praetor 600: velocidade máxima 863km/h: capacidade para 14 passageiros: Cor Azul*
+
+- *modelo Antonov An-2: velocidade máxima de 258 Km/h: capacidade para 12 passageiros: Cor Azul*
+
+[**Exercício ETL 1:**](../Sprint3/Exercicios/Exercícios%20ETL%20com%20Python/ExETL1.py) *Apresente o ator/atriz com maior númerode filmes e a respectiva quantidade. A quantidade de filmes encontra-se na coluna Number of movies do aruqivo*
+
+[**Exercício ETL 2:**](../Sprint3/Exercicios/Exercícios%20ETL%20com%20Python/ExETL2.py) *Apresente a média de receita de bilheteria bruta dos principais filmes, considerando todos os atores. Estamos falando aqui da média da coluna Gross*
+
+[**Exercício ETL 3:**](../Sprint3/Exercicios/Exercícios%20ETL%20com%20Python/ExETL3.py) *Apresente o ator/atriz com a maior média de receita de bilheteria bruta por filme do conjunto de dados. Considere a coluna Average per Movie para fins de cálculo.*
+
+[**Exercício ETL 4**](../Sprint3/Exercicios/Exercícios%20ETL%20com%20Python/ExETL4.py) *A coluna #1 Movie contém o filme de maior bilheteria em que ator atuou. Realize a contagem de aparições destes filmes no dataset, listando-os ordenados pela quantidade de vezes em que estão presentes. Considere a ordem decrescente e, em segundo nível, o nome do filme.*
+
+*Ao escrever no arquivo, considere o padrão de saída (sequencia) - O filme (nome filme) aparece (quantidade) vez(es) no dataset, adicionando um resultado a cada linha* 
+
+[**Exercício ETL 5:**](../Sprint3/Exercicios/Exercícios%20ETL%20com%20Python/ExETL5.py) *Apresente a lista dos atores ordenada pela receita bruta de bilheteria de seus filmes (coluna Total Grass), em ordem decrescente.*
+
+*Ao escrever no arquivo, considere o padrão de saída (nome do ator) - (receita total bruto), adicionando um resultado a cada linha*
+
 # Evidências
+
+**Resultado Exercício 1:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio1](../Sprint3/Exercicios/Ex1.png)
+
+**Resultado Exercício 2:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio2](../Sprint3/Exercicios/Ex2.png)
+
+**Resultado Exercício 3:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio3](../Sprint3/Exercicios/Ex3.png)
+
+**Resultado Exercício 4:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio4](../Sprint3/Exercicios/Ex4.png)
+
+**Resultado Exercício 5:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio5](../Sprint3/Exercicios/Ex5.png)
+
+**Resultado Exercício 6:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio6](../Sprint3/Exercicios/Ex6.png)
+
+**Resultado Exercício 7:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio7](../Sprint3/Exercicios/Ex7.png)
+
+**Resultado Exercício 8:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio8](../Sprint3/Exercicios/Ex8.png)
+
+**Resultado Exercício 9:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio9](../Sprint3/Exercicios/Ex9.png)
+
+**Resultado Exercício 10:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio10](../Sprint3/Exercicios/Ex10.png)
+
+**Resultado Exercício 11:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio11](../Sprint3/Exercicios/Ex11.png)
+
+**Resultado Exercício 12:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio12](../Sprint3/Exercicios/Ex12.png)
+
+**Resultado Exercício 12:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio12](../Sprint3/Exercicios/Ex12.png)
+
+**Resultado Exercício 1:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio13](../Sprint3/Exercicios/Ex13.png)
+
+**Resultado Exercício 14:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio14](../Sprint3/Exercicios/Ex14.png)
+
+**Resultado Exercício 15:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio15](../Sprint3/Exercicios/Ex15.png)
+
+**Resultado Exercício 16:**Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio16](../Sprint3/Exercicios/Ex16.png)
+
+**Resultado Exercício 17:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio17](../Sprint3/Exercicios/Ex17.png)
+
+**Resultado Exercício 18:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio18](../Sprint3/Exercicios/Ex18.png)
+
+**Resultado Exercício 19:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio19](../Sprint3/Exercicios/Ex19.png)
+
+**Resultado Exercício 20:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio20](../Sprint3/Exercicios/Ex20.png)
+
+**Resultado Exercício 21:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio21](../Sprint3/Exercicios/Ex21.png)
+
+**Resultado Exercício 22:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio22](../Sprint3/Exercicios/Ex22.png)
+
+**Resultado Exercício 23:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio23](../Sprint3/Exercicios/Ex23.png)
+
+**Resultado Exercício 24:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio24](../Sprint3/Exercicios/Ex24.png)
+
+**Resultado Exercício 25:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio25](../Sprint3/Exercicios/Ex25.png)
+
+**Resultado Exercício ETL 1:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
+
+![SucessoExercioETL1]
+
+**Resultado Exercício ETL 2:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
+
+![SucessoExercioETL2]
+
+**Resultado Exercício ETL 3:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
+
+![SucessoExercioETL3]
+
+**Resultado Exercício ETL 4:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
+
+![SucessoExercioETL4]
+
+**Resultado Exercício ETL 5:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
+
+![SucessoExercioETL5]
+
+
 
 # Certificados
