@@ -29,8 +29,9 @@ with open('actors.csv') as arquivo:
 with open('etapa-4.txt', 'w') as saida:
     # Faz a ordem decrescente do dicionário
     aparicoesFilmes = dict(sorted(aparicoesFilmes.items(), key=lambda item: item[1], reverse=True))
-    cont = 0
+    cont = 1
 
     # Escreve no arquivo o conteúdo do dicionário
     for filme, aparicoes in aparicoesFilmes.items():
-        saida.write(f'{cont + 1} - O filme {filme} aparece {aparicoes} de vez(es) no dataset.\n')
+        saida.write(f'{cont} - O filme {filme} aparece {aparicoes} de vez(es) no dataset.\n')
+        cont += 1
