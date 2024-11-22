@@ -976,23 +976,26 @@ random_list = random.sample(range(500),50)
 
 **Resultado Exercício ETL 1:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
 
-![SucessoExercioETL1]
+![SucessoExercioETL1](../Sprint3/Exercicios/Ex1ETL.png)
 
 **Resultado Exercício ETL 2:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
 
-![SucessoExercioETL2]
+![SucessoExercioETL2](../Sprint3/Exercicios/Ex2ETL.png)
 
 **Resultado Exercício ETL 3:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
 
-![SucessoExercioETL3]
+![SucessoExercioETL3](../Sprint3/Exercicios/Ex3ETL.png)
 
 **Resultado Exercício ETL 4:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
 
-![SucessoExercioETL4]
+![SucessoExercioETL4](../Sprint3/Exercicios/Ex4ETL.png)
+![SucessoExercioETL4](../Sprint3/Exercicios/Ex4ETL2.png)
 
 **Resultado Exercício ETL 5:** Ao executar o algoritmo em python no terminal foi obitido o seguinte resultado:
 
-![SucessoExercioETL5]
+![SucessoExercioETL5.1](../Sprint3/Exercicios/Ex5ETL.png)
+![SucessoExercioETL5.2](../Sprint3/Exercicios/Ex5ETL2.png)
+![SucessoExercioETL5.3](../Sprint3/Exercicios/Ex5ETL3.png)
 
 
 
