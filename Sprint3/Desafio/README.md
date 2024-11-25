@@ -344,9 +344,10 @@ O algoritmo imprime o resultado final no console, ou seja, no próprio arquivo [
 
 **Escolha 1:** *Exibir novamente o conteúdo do gráfico da **Terceira Questão** uma vez que não achei que o pie chart era a melhor forma de demonstrar quais categorias de apps existiam no dataset de acordo com sua frequência, como visto anteriormente.*
 
-**Escolha 2:**
+**Escolha 2:** Criar um gráfico das instruções pedidas na **Sexta Questão**: *Mostre o top 10 apps por número de reviews bem como o respectivo número de reviews. Ordene a lista de forma decrescente por número de reviews.*
 
 **Algoritmo Utilizado - Escolha 1:**
+
 ```Python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -410,18 +411,90 @@ plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
 ```
+
 **Gráfico Gerado:**
 
 ![Categorias de Apps Existentes na PlayStore Remake](../Evidencias/CategoriasAppsRemake.png)
 
 Eu fiz como um gráfico de dispersão, pois acho visualmente menos massivo que um pie chart e mais organizado. Inicialmente, só havia os pontos, então coloquei as mesmas cores que havia colocado anteriormente, adicionei um pontilhado que ia do eixo X, melhor dizendo da Categoria que estava no eixo X, até o valor do eixo Y que estava relacionado com aquela categoria, assim sendo mais fácil de entender as relações. Para saber o número exato de quantas vezes cada categoria apareceu eu coloquei o número logo acima do ponto no gráfico. O título do gráfico é o mesmo que o de pizza, fazendo-se simples de entender, mas para facilitar ainda mais adicionei labels no eixo X e Y.
 
+**Algoritmo Utilizado - Escolha 1:**
+
+```Python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Lê o arquivo googlepalystoreAtt.csv e armazena na variável dataset.
+dataset = pd.read_csv('googleplaystoreAtt.csv')
+
+# Garante que todos os valores da coluna Reviews sejam numéricos.
+dataset['Reviews'] = pd.to_numeric(dataset['Reviews'], errors='coerce')
+
+# Obtém os 10 maiores valores da coluna Reviews.
+maiorNumeroReviews = dataset.nlargest(10, 'Reviews')
+
+appsMaiorNumReviews = []
+
+# Itera pelas linhas de maiorNumeroReviews e coleta Nome do App e Número de Reviews.
+for _, coluna in maiorNumeroReviews.iterrows():
+    appsMaiorNumReviews.append((coluna['App'], int(coluna['Reviews'])))
+
+# Ordena a lista em ordem decrescente pelo número de reviews.
+appsMaiorNumReviews = sorted(appsMaiorNumReviews, key=lambda x: x[1], reverse=True)
+
+# Divide os dados para o gráfico.
+nomesApps = [app[0] for app in appsMaiorNumReviews]
+numReviews = [app[1] for app in appsMaiorNumReviews]
+
+# Defino a área do gráfico com 10x6.
+plt.figure(figsize=(15, 8))
+
+# Crio o gráfico de linha, com os valores do eixo X sendo os valores armazenados em nome_apps e os valores do 
+# eixo Y sendo os valores armazenado nem num_reviews.
+# Defino os marcadores com 'o', o tipo de linha, a cor da linha e a legenda para a linha.
+plt.plot(nomesApps, numReviews, marker='o', linestyle='-', color='lightcoral', label='Número de Reviews')
+
+# Adicionando anotações acima dos pontos.
+for app, quantidade in zip(nomesApps, numReviews):
+    # A quantidade instalações dos apps é anotado nas coordenadas (X = Apps, Y=Quantidade).
+    # Defino que a posição do texto será ajustada em relação às coordenadas especificadas, posiciono -5 no eixo X e -14 no eixo Y,
+    # centralizo o texto e defino o tamnho da fonte como 8.
+    plt.annotate(f'{quantidade}', (app, quantidade), textcoords="offset points", xytext=(-5, -14), ha='center',  fontsize=8)
+
+# Defino o título do gráfico, o tamanho de sua fonte 14, em negrito.
+plt.title('Top 10 Apps com Mais Reviews na Google Play Store', fontsize=14, fontweight='bold')
+
+# Defino os labels do eixo X e Y com tamanho de fonte 12 em negrito.
+plt.xlabel('Aplicativos', fontsize=12, fontweight='bold')
+plt.ylabel('Número de Reviews', fontsize=12, fontweight='bold')
+
+# Os valores do eixo X são colocados a 45° e a direita, para que eles fiquem alinhados e não sobrepostos.
+plt.xticks(rotation=45, ha='right') 
+
+# Ativa a grade do gráfico, que pode facilitar a visualização das informações.
+plt.grid(True, linestyle='--', alpha=0.6)
+
+# Garante a legenda no gráfico.
+plt.legend()
+
+# Mostrando o gráfico.
+plt.tight_layout()
+plt.show()
+```
+
+**Gráfico Gerado:**
+
+![Top 10 Apps com o maior núemero de Reviews na Google Play Store](../Evidencias/Top10AppsReviews.png)
+
+Para diversificar, utilizei um gráfico que ainda não havia sido explorado anteriormente. Escolhi a questão da **Sexta Questão** porque ela trouxe números interessantes, envolvendo dez aplicativos diferentes. Essa foi uma questão desafiadora, pois precisei voltar ao início e corrigir o arquivo googleplaystoreAtt.csv.
+
+Neste gráfico, optei por uma abordagem simples, garantindo que os rótulos dos eixos X e Y fossem claros e intuitivos, facilitando a extração de informações. O título foi cuidadosamente pensado para situar o leitor no contexto do gráfico. Além disso, incluí os nomes dos aplicativos e o número de reviews logo abaixo dos pontos no gráfico, permitindo uma coleta de dados precisa e visualmente acessível.
+
 ## **Pontos Importantes à Ressaltar**
 
 ### **Pricipais Problemas e Dificuldades:**
 
 Acredito que meu maior problema nesta Sprint foi o planejamento. Acabei vacilando na gestão do tempo e me enrolando em algumas etapas, o que me forçou a apressar outras e resultou em erros que consumiram ainda mais tempo. Por exemplo, não realizei uma análise aprofundada do arquivo CSV no início, o que me levou a enfrentar diversos problemas, como linhas em formatos inesperados e conteúdos que não estavam no data type desejado. Isso fez com que eu precisasse dar várias voltas até conseguir atingir meu objetivo. Com certeza, não repetirei esse erro!
-
 
 ### **Principais Aprendizados:**
 

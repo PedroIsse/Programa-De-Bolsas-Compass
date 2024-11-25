@@ -726,7 +726,11 @@ for forma in formas:
     print(f"Área: {forma.calcular_area()}")
 ```
 
-### **
+### **AWS Partner: Economias na nuvem AWS:**
+
+**Aspector Econômicos da Nuvem**
+
+
 
 # Exercícios
 
