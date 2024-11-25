@@ -126,8 +126,7 @@ esta_chovendo = True
     ```
 ### **Builtins:**
 
-Em Python todos os símbolos (variáveis, classes, funções, etc) necessários precisam ser importados para estarem disponíveis, porém existe um módulos "embutido" da linguagem chamada __builtins__, que é importado automaticamente, é neste módulo que os tipos de dados mais básicos são definidos, e um grande conjunto de funções estão
-automaticamente disponíveis.
+Em Python todos os símbolos (variáveis, classes, funções, etc) necessários precisam ser importados para estarem disponíveis, porém existe um módulos "embutido" da linguagem chamada __builtins__, que é importado automaticamente, é neste módulo que os tipos de dados mais básicos são definidos, e um grande conjunto de funções estão automaticamente disponíveis.
 
 ### **Conversão de Tipos:**
 
@@ -424,17 +423,17 @@ dicionario = {f'Item {i}': i * 2 for i in range(10) if i % 2 == 0}
 
 ### **Funções:**
 
-**Paramêtros Opicionais:**
+**Parâmetros Opicionais:**
 
 ```Python
 def sucesso_venda(produto, estado='pronto')
     return f'Produto: {produto} Estado: {estado}'
 
 
-# Quando a função for chamada, devem ser colocados os paremêtros, caso não seja colacado nada como paremêtro de "etado", ela utilizara o valor 'pronto' atribuido a ela
+# Quando a função for chamada, devem ser colocados os parâmetros, caso não seja colacado nada como paremêtro de "etado", ela utilizara o valor 'pronto' atribuido a ela
 ```
 
-**Paramêtros Nomeados:**
+**Parâmetros Nomeados:**
 
 ```Python
 def sucesso_venda(produto, estado='Pronto', inline=False):
@@ -524,7 +523,7 @@ if __name__ == '__main__':
     print(executar(boa_tarde))
     print(executar(bom_dia))
 
-# Uma função que pode chamar outras funções como paramêtro!
+# Uma função que pode chamar outras funções como parâmetro!
 ```
 
 **Com Unpacking:**
@@ -612,12 +611,9 @@ print('Subtração', subtracao(3, 2))
 
 ### **Programação Orientada a Objetos (POO)**
 
-**O que é:** A orientação a objetos consiste em abordar a
-resolução de um problema, através da análise das entidades e seus relacionamentos, dentro do contexto em que se situa o problema. A orientada a objetos permite a reutilização de código e seu algoritmo não é ordenado como o da estruturada que é sequencial. A estruturada trabalha com procedimentos e funções e a orientada a objetos trabalha com métodos. 
+**O que é:** A orientação a objetos consiste em abordar a resolução de um problema, através da análise das entidades e seus relacionamentos, dentro do contexto em que se situa o problema. A orientada a objetos permite a reutilização de código e seu algoritmo não é ordenado como o da estruturada que é sequencial. A estruturada trabalha com procedimentos e funções e a orientada a objetos trabalha com métodos. 
 
-**Classe vs Objeto:** As classes (grupo ou categoria de objetos) possuem características que definem um objeto da vida real,
-seja de natureza física, conceitual ou de software. Cada classe reúne objetos com características em comum, descreve todos os serviços disponíveis por seus objetos e quais informações podem ser
-armazenadas. A classe é o “molde” dos objetos. Uma classe pode ter muitos objetos instanciados a partir dela.]
+**Classe vs Objeto:** As classes (grupo ou categoria de objetos) possuem características que definem um objeto da vida real, seja de natureza física, conceitual ou de software. Cada classe reúne objetos com características em comum, descreve todos os serviços disponíveis por seus objetos e quais informações podem ser armazenadas. A classe é o “molde” dos objetos. Uma classe pode ter muitos objetos instanciados a partir dela.
 
 ```Python
 class Carro:
@@ -730,7 +726,7 @@ for forma in formas:
     print(f"Área: {forma.calcular_area()}")
 ```
 
-### **Gerenciamento de Pacotes:**
+### **
 
 # Exercícios
 
