@@ -1099,6 +1099,6 @@ random_list = random.sample(range(500),50)
 ![SucessoExercioETL5.2](./Exercicios/Ex5ETL2.png)
 ![SucessoExercioETL5.3](./Exercicios/Ex5ETL3.png)
 
-
-
 # Certificados
+
+![Certificado: AWS Aspectos economicos da nuvem](./Certificados/Certificado%20AWS%20-%20Aspectos%20economicos%20da%20nuvem-1.png)
