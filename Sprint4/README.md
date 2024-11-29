@@ -383,3 +383,12 @@ Uma função recursiva geralmente possui duas partes principais:
     ```
 
 ### **Docker para Desenvolvedores (com Docker Swarm e Kubemetes)**
+
+**O que é Docker?**
+
+É um software que reduz a complexidade de setup de aplicações, onde configuramos containers que ajem como servidores para rodar as aplicações. Com facilidade, pode-se criar ambientes independentes e que funcionam em diversos Sistemas Operacionais. Fora que ele deixa os projetos ***perfomáticos***.
+
+- **Vantagens de utilizar o Docker:**
+    - Proporciona mais velocidade na configuração do ambiente de desenvolvimento.
+    - Pouco tempo gasto em manutenção, containers são executados como configurados. 
+    - Performance para executar aplicações, mais perfomáticas que uma Virtual Machine.
