@@ -1298,3 +1298,217 @@ kubectl rollout undo deployment/<deployment>
 
     kubectl delete -f <service.yaml>
     ```
+
+### **AWS Skill Builder - AWS Partner: Acredditation (Technical)**
+
+#### **AWS Skill Builder - AWS Technical Essentials**
+
+
+
+# **Exercícios:**
+
+[**Exercício 1:**](./Exercicios/ex1.py) *Você está recebendo um arquivo contendo 10.000 números inteiros, um em cada linha. Utilizando lambdas e high order functions, apresente os 5 maiores valores pares e a soma destes.*
+
+*Você deverá aplicar as seguintes funções no exercício:*
+
+- *map*
+
+- *filter*
+
+- *sorted*
+
+- *sum*
+
+*Seu código deverá exibir na saída (simplesmente utilizando 2 comandos print()):*
+
+*a lista dos 5 maiores números pares em ordem decrescente;*
+
+*a soma destes valores.*
+
+[**Exercício 2:**](./Exercicios/ex2.py) *Utilizando high order functions, implemente o corpo da função conta_vogais. O parâmetro de entrada será uma string e o resultado deverá ser a contagem de vogais presentes em seu conteúdo.*
+
+*É obrigatório aplicar as seguintes funções:*
+
+- *len*
+
+- *filter*
+
+- *lambda*
+
+*Desconsidere os caracteres acentuados. Eles não serão utilizados nos testes do seu código.*
+
+[**Exercício 3:**](./Exercicios/ex3.py) *A função calcula_saldo recebe uma lista de tuplas, correspondendo a um conjunto de lançamentos bancários. Cada lançamento é composto pelo seu valor (sempre positivo) e pelo seu tipo (C - crédito ou D - débito).* 
+
+*Abaixo apresentando uma possível entrada para a função.*
+
+
+```Python
+lancamentos = [
+    (200,'D'),
+    (300,'C'),
+    (100,'C')
+]
+```
+
+
+*A partir dos lançamentos, a função deve calcular o valor final, somando créditos e subtraindo débitos. Na lista anterior, por exemplo, teríamos como resultado final 200.*
+
+*Além de utilizar lambdas, você deverá aplicar, obrigatoriamente, as seguintes funções na resolução:*
+
+- *reduce (módulo functools)*
+
+- *map*
+
+[**Exercício 4:**](./Exercicios/ex4.py) *A função calcular_valor_maximo deve receber dois parâmetros, chamados de operadores e operandos. Em operadores, espera-se uma lista de caracteres que representam as operações matemáticas suportadas (+, -, /, *, %), as quais devem ser aplicadas à lista de operadores nas respectivas posições. Após aplicar cada operação ao respectivo par de operandos, a função deverá retornar o maior valor dentre eles.*
+
+*Veja o exemplo:*
+
+*Entrada*
+
+```Python
+operadores = ['+','-','*','/','+']
+operandos  = [(3,6), (-7,4.9), (8,-8), (10,2), (8,4)]
+```
+
+*Aplicar as operações aos pares de operandos*
+
+```Python
+[ 3+6 , -7-4.9, 8*-8 , 10/2 , 8+4 ] 
+```
+
+*Obter o maior dos valores*
+
+```Python
+12
+```
+
+*Na resolução da atividade você deverá aplicar as seguintes funções:*
+
+- *max*
+
+- *zip*
+
+- *map*
+
+[**Exercício 5:**](./Exercicios/ex5.py) *Um determinado sistema escolar exporta a grade de notas dos estudantes em formato CSV. Cada linha do arquivo corresponde ao nome do estudante, acompanhado de 5 notas de avaliação, no intervalo [0-10]. É o arquivo estudantes.csv de seu exercício.*
+
+*Precisamos processar seu conteúdo, de modo a gerar como saída um relatório em formato textual contendo as seguintes informações:*
+
+- *Nome do estudante*
+
+- *Três maiores notas, em ordem decrescente*
+
+- *Média das três maiores notas, com duas casas decimais de precisão* 
+
+*O resultado do processamento deve ser escrito na saída padrão (print), ordenado pelo nome do estudante e obedecendo ao formato descrito a seguir:*
+
+***Nome: nome estudante Notas: [n1, n2, n3] Média: média***
+
+*Exemplo:*
+
+*Nome: Maria Luiza Correia Notas: [7, 5, 5] Média: 5.67*
+
+*Nome: Maria Mendes Notas: [7, 3, 3] Média: 4.33*
+
+*Em seu desenvolvimento você deverá utilizar lambdas e as seguintes funções:*
+
+- *round*
+
+- *map*
+
+- *sorted*
+
+[**Exercício 6:**](./Exercicios/ex6.py) *Você foi encarregado de desenvolver uma nova feature  para um sistema de gestão de supermercados. O analista responsável descreveu o requisito funcional da seguinte forma:*
+
+- *Para realizar um cálculo de custo, o sistema deverá permitir filtrar um determinado conjunto de produtos, de modo que apenas aqueles cujo valor unitário for superior à média deverão estar presentes no resultado. Vejamos o exemplo:*
+
+*Conjunto de produtos (entrada):*
+
+
+```Python
+Arroz: 4.99
+
+Feijão: 3.49
+
+Macarrão: 2.99
+
+Leite: 3.29
+
+Pão: 1.99
+```
+
+
+
+*Produtos com valor acima da média:*
+
+```Python
+Arroz: 4.99
+
+Feijão: 3.49
+```
+
+*Observe que estamos definindo a assinatura de uma função como parte de sua resposta. Você não pode mudá-la, apenas codificar seu corpo. O parâmetro conteudo é um dicionário cuja chave contém o nome do produto e o valor, o respectivo preço (ponto flutuante).*
+
+*Observe um exemplo de valor para conteudo:*
+
+```Python
+{
+    "arroz": 4.99,
+    "feijão": 3.49,
+    "macarrão": 2.99,
+    "leite": 3.29,
+    "pão": 1.99
+}
+```
+
+*O retorno da função obrigatoriamente deve ser uma lista. Cada elemento da lista é uma tupla em que a primeira posição contém o nome do produto e a segunda, o respectivo preço. Veja um exemplo de retorno:*
+
+```Python
+[
+ 
+('feijão', 3.49),
+ 
+ ('arroz', 4.99)
+ 
+]
+```
+
+***Importante:*** *O retorno da função deve estar ordenado pelo preço do item (ordem crescente).*
+
+[**Exercício 7:**](./Exercicios/ex7.py) *Generators são poderosos recursos da linguagem Python. Neste exercício, você deverá criar o corpo de uma função, cuja assinatura já consta em seu arquivo de início (def pares_ate(n:int):) .*
+
+*O objetivo da função pares_ate é retornar um generator para os valores pares no intervalo [2,n] . Observe que n representa o valor do parâmetro informado na chamada da função.*
+
+# **Evidências:**
+
+**Resultado Exercício 1:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio1](./Exercicios/Ex1.png)
+
+**Resultado Exercício 2:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio2](./Exercicios/Ex2.png)
+
+**Resultado Exercício 3:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio3](./Exercicios/Ex3.png)
+
+**Resultado Exercício 4:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio4](./Exercicios/Ex4.png)
+
+**Resultado Exercício 5:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio5](./Exercicios/Ex5.png)
+
+**Resultado Exercício 6:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio6](./Exercicios/Ex6.png)
+
+**Resultado Exercício 7:** Ao executar o algoritmo em python na VM da Udemy o resultlado Obtido foi um sucesso! Como visto na imagem a seguir:
+
+![SucessoExercio7](./Exercicios/Ex7.png)
+
+# **Certificados:**
+
+**AWS Skill Builder - AWS Partner: Acredditation (Technical)**
