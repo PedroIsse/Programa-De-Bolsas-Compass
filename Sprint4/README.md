@@ -1303,6 +1303,51 @@ kubectl rollout undo deployment/<deployment>
 
 #### **AWS Skill Builder - AWS Technical Essentials**
 
+- **AWS Management Console:**  Interface gráfica baseada em navegador que permite aos usuários gerenciar e configurar os serviços da AWS de maneira visual. O console oferece listas de serviços e opções organizadas por região. **Entretanto**, o uso exclusivo do console pode levar a erros humanos, devido à dependência de interações manuais e visuais.
+
+- **AWS Command Line Interface (CLI):**  Ferramenta que permite gerenciar serviços da AWS utilizando comandos no terminal. A AWS CLI interage diretamente com as APIs da AWS, proporcionando maior automação e eficiência em tarefas repetitivas, com menos dependência de interfaces gráficas.  
+
+- **AWS Software Development Kit (SDK):**  Conjunto de bibliotecas mantidas pela AWS para facilitar a integração de suas APIs em aplicações de software. Os SDKs são compatíveis com várias linguagens de programação, como Python, C++, Go, Ruby, Java, entre outras, permitindo que desenvolvedores interajam programaticamente com os serviços da AWS.
+
+- **Amazon EC2 (Elastic Compute Cloud):** É um serviço de computação em nuvem AWS que fornece capacidade de servidores virtuais dimensionável e segura. Ele permite que usuários criem e gerenciem instâncias de máquinas virtuais (instâncias EC2) configuradas de acordo com suas necessidades. Essas instâncias podem ser utilizadas para hospedar aplicações, processar dados, outras tarefas computacionais. Fornece flexibilidade em termos de sistemas operacionais, tamanhos de máquina, capacidade de armazenamento e opções de rede, permitindo que empresas dimensionem seus recursos conforme necessário.
+
+    - **Ciclo de vida EC2:**
+
+    ![Ciclo de vida EC2](../Assets/CicloDeVidaEC2.png)
+
+    - **1 - Pending:** Preparando a instância para rodar/executar. 
+
+    - **2 - Running:** A instância está **rodando/executando** e o valor de uso dela começa a ser computado
+
+    - **3 - Rebooting:** Reiniciar a instância
+
+    - **4 - Stopping:**  A instância é paralizada, por um tempo até que seja iniciada novamente, basicamente: fechar o notebook, ele entra em um modo em que ele não está executando, mas suas informações abertas **continuam lá**
+
+    - **5 - Terminated:** A instância é terminada, logo, **nunca mais poderá ser acessada suas informações**
+
+- **Amazon Machine Image (AMIs):** São modelos pré-configurados (como uma imagem em Docker ou um Classe em POO) que contém informações necessárias para inicializar uma instância EC2. Uma AMI inclui o sistema operacional, o volume raiz, pacotes de software e configurações avançadas. O usuário pode criar a sua própria AMI ou adquirir uma *open source* ou pelo *AWS Marketplace*. 
+
+- **Containers:** Os contêineres são uma tecnologia essencial para o desenvolvimento e a implantação de aplicações modernas. Eles encapsulam uma aplicação e todas as suas dependências em uma única unidade executável, garantindo consistência entre diferentes ambientes, como desenvolvimento, teste e produção.
+
+    - **Amazon ECS (Elastic Container Service):** O ECS é um serviço gerenciado da AWS para orquestração de contêineres. Ele simplifica a implantação e o gerenciamento de contêineres ao usar o sistema de gerenciamento nativo da AWS, eliminando a necessidade de configurar e operar um orquestrador de contêineres separado.
+
+    - **Amazon EKS (Elastic Kubernetes Service):** O EKS é um serviço gerenciado para orquestrar contêineres usando Kubernetes, um orquestrador amplamente adotado e mantido pela comunidade open-source. Ele permite que as organizações executem cargas de trabalho no Kubernetes sem precisar gerenciar o plano de controle (control plane).
+
+- **Serverless:** É um modelo de computação onde a infraestrutura é totalmente gerenciada pelo provedor de nuvem. O foco está no desenvolvimento e execução do código, enquanto a AWS cuida do provisionamento, escalabilidade, manutenção e disponibilidade dos servidores.
+
+    - **AWS Fargate:** O AWS Fargate é uma solução serverless para executar contêineres. Ele permite que os usuários foquem no design e na execução de aplicações em contêineres sem se preocupar com a configuração e gerenciamento de clusters ou instâncias subjacentes.
+
+    - **AWS Lambda:** O AWS Lambda é um serviço serverless que executa funções sob demanda em resposta a eventos. Ele é ideal para executar trechos curtos de código sem a necessidade de gerenciar infraestrutura.
+
+- **AWS Networking:** Refere-se aos serviços e recursos que a AWS oferece para criar, gerenciar e proteger redes em sua infraestrutura de nuvem. Esses serviços são projetados para atender a diversas necessidades de conectividade, desde redes privadas isoladas até redes globais interconectadas, garantindo desempenho, escalabilidade e segurança.
+
+    - **Amazon VPC:** Permite criar uma rede virtual isolada dentro da AWS, onde você pode executar recursos, como instâncias EC2 e bancos de dados, com controle total sobre a rede.
+
+        - **IP**
+        - **Availability Zones**
+        - **Subnets**
+        - **Gateways**
+        - **Route Tables**
 
 
 # **Exercícios:**
@@ -1512,3 +1557,9 @@ Feijão: 3.49
 # **Certificados:**
 
 **AWS Skill Builder - AWS Partner: Acredditation (Technical)**
+
+![AWS Partner: Acredditation (Technical)](./Certificados/AWS_Partner_Accreditation_Technical-1.png)
+
+**AWS Technical Essentials**
+
+![AWS Technical Essentials](./Certificados/AWS_Technical_Essentials-1.png)
