@@ -8,8 +8,7 @@ Já meu interesse por software surgiu de uma paixão pessoal: os videogames. Sou
 
 O programa de bolsas da Compass está sendo minha primeira experiência em uma empresa de tecnologia, e o conteúdo transmitido agrega muito aos meus objetivos futuros. Tenho, inclusive, grande interesse no Studio de Games da Compass, onde espero poder me aproximar ainda mais de um dos meus sonhos.
 
-Posso contribuir com a Compass por meio de meus conhecimentos em Linguagem de Programação e Algoritmos (C, C# e Python), Excel avançado, Documentação, Inglês avançado (embora ainda não tenha utilizado em contextos de negócios), Git, GitHub e Linux, além de um conhecimento básico de Shell e hardware / sistemas embarcados. Possuo também grande facilidade de aprendizado, comunicação e adaptação a situações adversas. Estou aprendendo na Faculdade os seguintes conteúdos: Sistemas Operacionais, Contabilidade, Estátistica aplicada, Cálculo, Laboratório de Hardware (Arquitetura de Computadores II), Linguagem de programação I (C) e II (C#) e Engenharia de Software I. Estou com um percentual de rendimento do curso de 9.
-
+Posso contribuir com a Compass por meio de meus conhecimentos em Linguagem de Programação e Algoritmos (C, C# e Python), Excel avançado, Documentação, Inglês avançado (embora ainda não tenha utilizado em contextos de negócios), Git, GitHub e Linux, além de um conhecimento básico de Shell e hardware / sistemas embarcados. Possuo também grande facilidade de aprendizado, comunicação e adaptação a situações adversas.
 ___
 
 ![Foto Pedro Isse](/Assets/PedroIsse.jpg)
