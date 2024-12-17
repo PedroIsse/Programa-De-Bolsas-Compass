@@ -120,32 +120,19 @@
 
 #### **1 - Bucket Criado:**
 
-![Criando Bucket](./Assets/bucketCriado.png)
+![Criando Bucket](./Exercicios/Assets/bucketCriado.png)
 
 #### **2 - Habilitado Site Estático e Acesso Público:** 
 
-![Habilitando Site Estático](./Assets/hostingSiteEstatico2.png)
+![Habilitando Site Estático](./Exercicios/Assets/hostingSiteEstatico2.png)
 
-![Site Estático Habilitado](./Assets/hostingSiteEstatico.png)
+![Site Estático Habilitado](./Exercicios/Assets/hostingSiteEstatico.png)
 
 #### **3 - Política de Bucket:** 
 
 Concede a permissão de ***leitura de objetos armazenados no bucket S3*** para qualquer pessoa que está utilizando o site criado.
 
-```JSON
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::lab-aws-s3-pedro/*"
-        }
-    ]
-}
-```
+![Políticas de Bucket](./Exercicios/Assets/politicaBucket.png)
 
 #### **4 - Configurar Arquivos Utilizados:**
 
@@ -173,3 +160,13 @@ Isso estrutura o formato do site estático. O usuário irá clicar em um link qu
 Após todas essas etapas, só falta acessar o [*site estático*](http://lab-aws-s3-pedro.s3-website-us-east-1.amazonaws.com) que está sendo hospedado pelo S3:
 
 ![Meu site estático](./Exercicios/Assets/meuSite.png)
+
+# **Certificados:**
+
+[**AWS Cloud Quest: Cloud Practitioner**](https://www.credly.com/badges/e06a693f-3d61-4ccc-811f-a2c6e0fa381d/public_url)
+
+![Cloud Quest](./Certificados/CloudQuest_AWS.png)
+
+**Exam Prep Standart Course: AWS Certified Cloud Praticioner (CLF-C02 - Portuguese)**
+
+![AWS Curso Preparatório](./Certificados/AWS_Curso_de_preparacao-1.png)
