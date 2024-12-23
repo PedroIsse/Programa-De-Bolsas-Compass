@@ -53,7 +53,18 @@ Os arquivos utilizados foram o [*index.html*](./index.html):
 
 Isso estrutura o formato do site estático. O usuário irá clicar em um link que irá fazer com que ele instale o arquivo [*nome.csv*](./dados/nomes.csv). Um erro que poderia acontecer é o usuário tentar acessar algum objeto que não está armazenado no bucket ou ocorre um erro ao tentar acessar um recurso, assim, ele será redirecionado ao arquivo [*404.html*](./404.html).
 
-
+```Html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Erro</title>
+</head>
+<body>
+    <h1>Ops! Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.</h1>
+</body>
+</html>
+```
 
 #### **5 - Conclusão:** 
 
