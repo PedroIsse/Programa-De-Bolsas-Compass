@@ -1,0 +1,3 @@
+Veículo elegível: AAA-4C59
+Total de veículos elegíveis: 6447
+Total de veículos não elegíveis: 16425
