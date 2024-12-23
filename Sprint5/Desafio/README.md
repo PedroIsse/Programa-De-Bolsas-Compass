@@ -8,7 +8,7 @@ O objetivo desta Sprint é a adaptação ao ambiente AWS e aos seus conceitos de
 
 O dataset escolhido foi o [*veiculos-habilitados-12-2024*](./veiculos-habilitados-12-2024.csv) que contém 33626 linhas. O dataset consiste em informações detalhadas sobre veículos e suas características relacionadas ao serviço de transporte. Analisando ele, decide que a pergunta seria: 
 
-*Mostrar a placa do veículo que pode agir como Ônibus Escolar (serviço fretado ou serviço fretado e semiurbano) até as férias de meio de ano (09/07/2025), desempate pela placa do veículo.*
+*Mostrar a placa do veículo que pode agir como Ônibus Escolar (serviço fretado ou serviço fretado e semiurbano) até as férias de meio de ano (09/07/2025), desempate pela placa do veículo. Mostre poderiam ser elegidos para se tornerem ônibus escolares e quantos não poderiam.*
 
 Com o dataset escolhido, eu fui atrás de entender formas de criar meu bucket e fazer o envio de arquivos, tudo via script, mesmo que a criação não tenha sido pedida por script, eu achei que seria interessante esse aprendizado. Portanto, encontrei o ***Single Sign-On*** no ***AWS CLI***, que permite que eu faça uma autenticação e permite o acesso a minha conta e as funções dela, temporariamente. 
 
