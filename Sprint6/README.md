@@ -408,7 +408,15 @@ QuickSight é um serviço de business intelligence (BI) em escala de nuvem que v
 
 # **Exercícios**
 
+- **Lab AWS S3**
+
+- **Lab AWS Athena**
+
+- **Lab AWS Lambda**
+
 # **Evidências**
+
+**Todas as evidências e resuolução estão armazenadas no [***README.md***](./Exercícios/README.md) que fiz para documentação dos exercícios**
 
 # **Certificados**
 
