@@ -16,7 +16,7 @@ Foram escolhidos esses filmes, pois a trajetória dos filmes slasher é interess
 
 **2 - Qual é a receita de bilheteira de cada filme da franquia e como ela se compara ao orçamento de produção?**
 
-**3 - Quais atores mais se destacaram em papéis principais ou recorrentes em filmes de slasher das franquias mencionadas? São mais recorrentes nas franquias slasher, fora os assassinos?**
+**3 - Quais atores mais se destacaram em papéis principais ou recorrentes em filmes de slasher das franquias mencionadas?**
 
 **4 - Quais foram os filmes de slasher que mais tiveram mudanças de elenco principal entre sequências e como isso afetou a percepção do público?**
 
