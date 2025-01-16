@@ -122,3 +122,15 @@
     - Restringir acesso a informações sensíveis, permitindo que os usuários vejam apenas os dados relevantes
 
     - Simplificar consultas frequentes e complexas
+
+# **Exercícios:**
+
+**Os exercícios foram resolvidos e documentados no [README.md](./Exercicios/README.md).**
+
+# **Evidências:**
+
+**Todas as evidências dos exercícios estão documentadas no [README.md](./Exercicios/README.md).**
+
+# **Certificados:**
+
+**Nessa sprint não foi obtido nenhum certificado externo à Udemy.**
