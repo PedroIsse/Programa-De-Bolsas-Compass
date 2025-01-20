@@ -12,19 +12,11 @@ Foram escolhidos esses filmes, pois a trajetória dos filmes slasher é interess
 
 **1 - Qual o sucesso dos filmes de slasher em diferentes décadas e como elas se relacionam com o sucesso do gênero slasher ao longo do tempo? Principais décadas para o gênero.**
 
-Pegar da API: Revenue (Talvez o vote avarege e vote count)
-
 **2 - Qual é a receita de bilheteira de cada filme da franquia e como ela se compara ao orçamento de produção?**
-
-Pegar da API: Revenue e Budget
 
 **3 - Quais foram os filmes de slasher que mais tiveram mudanças de elenco principal entre sequências e como isso afetou a percepção do público?**
 
-Pegar da API: Cast e Revenue (Talvez o vote avarage e vote count)
-
 **4 - A mudança na produção das franquias mudou sua bilheteria? A nota do público? Observe a partir do Diretor e Roteirista**
-
-Pegar da API: Director, Writer, Producer (Buscar o: Crew)
 
 **Errata:** Eu retirei uma das minhas perguntas da Sprint anterior, pois achei que poderia ser muito trabalhosa, uma vez que achei ela, relativamente, abstrata.
 
