@@ -1,0 +1,37 @@
+O filme 'Scream' está no CSV!
+O filme 'Scream 2' está no CSV!
+O filme 'Scream 3' está no CSV!
+O filme 'Scream 4' está no CSV!
+O filme 'Scream' está no CSV!
+O filme 'Scream VI' NÃO está no CSV!
+O filme 'Scream 7' NÃO está no CSV!
+O filme 'Friday the 13th' está no CSV!
+O filme 'Friday the 13th Part 2' está no CSV!
+O filme 'Friday the 13th Part III' está no CSV!
+O filme 'Friday the 13th: The Final Chapter' está no CSV!
+O filme 'Friday the 13th: A New Beginning' está no CSV!
+O filme 'Friday the 13th Part VI: Jason Lives' está no CSV!
+O filme 'Friday the 13th Part VII: The New Blood' está no CSV!
+O filme 'Friday the 13th Part VIII: Jason Takes Manhattan' está no CSV!
+O filme 'Jason Goes to Hell: The Final Friday' está no CSV!
+O filme 'Jason X' está no CSV!
+O filme 'Freddy vs. Jason' está no CSV!
+O filme 'Saw' está no CSV!
+O filme 'Saw II' está no CSV!
+O filme 'Saw III' está no CSV!
+O filme 'Saw IV' está no CSV!
+O filme 'Saw V' está no CSV!
+O filme 'Saw VI' está no CSV!
+O filme 'Saw 3D' está no CSV!
+O filme 'Jigsaw' está no CSV!
+O filme 'Saw X' NÃO está no CSV!
+O filme 'Spiral: From the Book of Saw' está no CSV!
+O filme 'Saw XI' NÃO está no CSV!
+O filme 'The Texas Chain Saw Massacre' está no CSV!
+O filme 'The Texas Chainsaw Massacre 2' está no CSV!
+O filme 'Leatherface: The Texas Chainsaw Massacre III' NÃO está no CSV!
+O filme 'The Return of the Texas Chainsaw Massacre' está no CSV!
+O filme 'Texas Chainsaw 3D' está no CSV!
+O filme 'Leatherface' está no CSV!
+O filme 'Texas Chainsaw Massacre' está no CSV!
+O filme '' NÃO está no CSV!

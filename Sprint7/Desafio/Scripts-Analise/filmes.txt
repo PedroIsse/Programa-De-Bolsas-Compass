@@ -1,0 +1,4 @@
+Scream,Scream 2,Scream 3,Scream 4,Scream,Scream VI,Scream 7,
+Friday the 13th,Friday the 13th Part 2,Friday the 13th Part III,Friday the 13th: The Final Chapter,Friday the 13th: A New Beginning,Friday the 13th Part VI: Jason Lives,Friday the 13th Part VII: The New Blood,Friday the 13th Part VIII: Jason Takes Manhattan,Jason Goes to Hell: The Final Friday,Jason X,Freddy vs. Jason,
+Saw,Saw II,Saw III,Saw IV,Saw V,Saw VI,Saw 3D,Jigsaw,Saw X,Spiral: From the Book of Saw,Saw XI,
+The Texas Chain Saw Massacre,The Texas Chainsaw Massacre 2,Leatherface: The Texas Chainsaw Massacre III,The Return of the Texas Chainsaw Massacre,Texas Chainsaw 3D,Leatherface,Texas Chainsaw Massacre,
