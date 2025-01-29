@@ -4,9 +4,8 @@ from awsglue.utils import getResolvedOptions
 from awsglue.context import GlueContext
 from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import explode
+from pyspark.sql.functions import explode, monotonically_increasing_id, col
 from pyspark.sql.types import *
-from pyspark.sql.functions import monotonically_increasing_id
 from datetime import datetime
 
 # Definir argumentos de entrada para o script
@@ -49,42 +48,41 @@ schema = StructType([
 
 dados = spark.read.schema(schema).json(source_path, mode='PERMISSIVE', multiLine=True)
 
-# Explodir a coluna "elenco" para transformar cada ator em uma linha separada e adicionar um ID único
-atores = dados.select(
-    "id", "imdb_id", explode("elenco").alias("ator")
-).withColumn("id_ator", monotonically_increasing_id() + 1)
+# Função para criar IDs únicos
+def create_unique_ids(dataframe, column_name, id_column_name):
+    # Criar IDs únicos para os itens na coluna de interesse
+    unique_items = dataframe.select(column_name).distinct()
+    unique_items = unique_items.withColumn(id_column_name, monotonically_increasing_id() + 1)
+    
+    # Juntar os IDs únicos com os dados originais
+    dataframe_with_ids = dataframe.join(unique_items, column_name, "left")
+    return dataframe_with_ids
 
+# Explodir e adicionar IDs para atores
+atores = dados.select("id", "imdb_id", explode("elenco").alias("ator"))
+atores = create_unique_ids(atores, "ator", "id_ator")
 atores.dropna().dropDuplicates()
-
 atores.write.mode("overwrite").parquet(atores_path)
 
-personagens = dados.select(
-    "id", "imdb_id", explode("personagens").alias("personagem")
-).withColumn("id_personagem", monotonically_increasing_id() + 1)
-
+# Explodir e adicionar IDs para personagens
+personagens = dados.select("id", "imdb_id", explode("personagens").alias("personagem"))
+personagens = create_unique_ids(personagens, "personagem", "id_personagem")
 personagens.dropna().dropDuplicates()
-
 personagens.write.mode("overwrite").parquet(personagens_path)
 
-diretores = dados.select(
-    "id", "imdb_id", explode("diretores").alias("diretor")
-).withColumn("id_diretor", monotonically_increasing_id() + 1)
-
+# Explodir e adicionar IDs para diretores
+diretores = dados.select("id", "imdb_id", explode("diretores").alias("diretor"))
+diretores = create_unique_ids(diretores, "diretor", "id_diretor")
 diretores.dropna().dropDuplicates()
-
 diretores.write.mode("overwrite").parquet(diretores_path)
 
-roteiristas = dados.select(
-    "id", "imdb_id", explode("roteiristas").alias("roteiristas")
-).withColumn("id_roteirista", monotonically_increasing_id() + 1)
-
+# Explodir e adicionar IDs para roteiristas
+roteiristas = dados.select("id", "imdb_id", explode("roteiristas").alias("roteirista"))
+roteiristas = create_unique_ids(roteiristas, "roteirista", "id_roteirista")
 roteiristas.dropna().dropDuplicates()
-
 roteiristas.write.mode("overwrite").parquet(roteiristas_path)
 
 # Remover as colunas 'roteiristas', 'diretores', 'personagens' e 'elenco' do dataframe principal
 dados_principal = dados.drop("roteiristas", "diretores", "personagens", "elenco")
-
 dados_principal.dropna().dropDuplicates()
-
 dados_principal.write.mode("overwrite").parquet(filmes_path)
