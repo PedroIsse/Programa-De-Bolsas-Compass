@@ -85,9 +85,9 @@ Por meio do ***Left Join*** eu fiz as conexões das dimensões com a fato.
 
 ### **Análise de Popularidade e Desempenho de Franquias de Filmes de Terror Slasher:**
 
-O [***dashboard***](./Dashboard.pdf) completo irá fazer a *Análise de Popularidade e Desempenho de Franquias de Filmes de Terror Slasher*, mais especificamente os filmes **Sexta-Feira 13**, **Massacre da Serra Elétrica**, **Pânico** e **Jogos Mortais**, como visto anteriormente. 
+O [***dashboard***](./Dashboard.pdf) completo irá fazer a *Análise de Popularidade e Desempenho de Franquias de Filmes de Terror Slasher*, focando especificamente nos filmes **Sexta-Feira 13**, **Massacre da Serra Elétrica**, **Pânico** e **Jogos Mortais**, como discutido anteriormente.
 
-Para que fique mais claro os ***insights*** e ***informações*** que podem ser tiradas dos gráficos, eu irei explicar individualmente cada um. 
+Para tornar mais claros os ***insights*** e ***informações*** que podem ser extraídos dos gráficos, irei explicar individualmente cada um deles.
 
 #### **Popularidade dos filmes em relação ao assassino da produção**
 
@@ -98,6 +98,10 @@ Para que fique mais claro os ***insights*** e ***informações*** que podem ser 
 - **Jason Voorhees** e **Jigsaw** mantêm-se como os mesmos personagens ao longo de suas respectivas franquias, o que pode ter contribuído para avaliações positivas nos filmes iniciais, já que o público teve a oportunidade de se apegar ao *conceito* desses vilões. No entanto, observa-se uma queda nas notas com o passar do tempo, o que pode indicar saturação do público, previsibilidade nas tramas ou outros fatores de desgaste.  
 
 - **Ghostface**, apesar de ser um personagem diferente em cada filme da saga *Pânico*, apresenta uma consistência maior nas avaliações em comparação com **Jason** e **Leatherface**. Isso sugere que a troca de identidade pode ter sido uma escolha acertada, desde que bem executada, mantendo o interesse do público e evitando previsibilidade.  
+
+**Métricas:**
+
+![Métricas Popularidade Assassinos](../Evidencias/MetricasPopAss.png)
 
 #### **Popularidade das frânquias:**
 
@@ -113,6 +117,10 @@ Para que fique mais claro os ***insights*** e ***informações*** que podem ser 
 
     *Jogos Mortais* também pode ser considerado nessa equação, mas se destaca com um desempenho melhor do que *Massacre da Serra Elétrica* e *Sexta-Feira 13*, mantendo uma popularidade mais consistente.  
 
+**Métricas:**
+
+![Métricas Popularidade Frânquias](../Evidencias/MetricasPopFranq.png)
+
 
 #### **Popularidade dos filmes (Década):**
 
@@ -124,6 +132,9 @@ Para que fique mais claro os ***insights*** e ***informações*** que podem ser 
 
 - Após 20 anos de filmes *slasher*, observa-se uma queda nas bilheteiras e nas avaliações na década de 90, em comparação com as décadas de 70 e 80. Isso pode ser atribuído à saturação do gênero na época. No entanto, houve um ressurgimento nos anos 2000, impulsionado pelo lançamento de novas franquias, como *Jogos Mortais* e *Pânico*, que trouxeram frescor e inovação ao gênero.  
 
+**Métricas:**
+
+![Métricas Popularidade Década](../Evidencias/MetricasPopDec.png)
 
 #### **Popularidade e valorização dos Diretores e Roteiristas:**
 
@@ -141,3 +152,9 @@ Para que fique mais claro os ***insights*** e ***informações*** que podem ser 
     Um exemplo claro disso é visto em *Jason X* e *Freddy vs. Jason*, que são filmes significativamente diferentes da proposta original de *Sexta-Feira 13*, o que pode ter sido influenciado pela rotatividade na equipe criativa.  
 
     O que é diretamente ligado a receita líquida gerada por essas equipes, assim consolidando o conceito de popularidade em valores ecônomicos, que é o que realmente importa quando trata-se de uma grande produção de filme.
+
+**Métricas:**
+
+![Métricas Popularidade Diretores](../Evidencias/MetricasPopDir.png)
+
+![Métricas Popularidade Roteiristas](../Evidencias/MetricasPopRot.png)
